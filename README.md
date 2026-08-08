@@ -1,43 +1,43 @@
-# XCA - X Certificate and Key Management
+# XCA - X 证书和密钥管理 
 
-[![CMake](https://github.com/chris2511/xca/actions/workflows/cmake.yaml/badge.svg)](https://github.com/chris2511/xca/actions/workflows/cmake.yaml)
+## __修改说明__
 
-## __Release Notes__
+* 最新版本为官方 XCA - *2.9.0*版本
+* 新增了一些功能：
+  * 修复翻译了一些中文语言包未翻译的字符
+  * 在创建证书界面添加了自定义序列号的选项
+  * 添加了SM2密钥创建、SM3哈希算法、SM4的对称加密。
 
-* The latest release is *2.9.0*
-* This release fixes some minor issues:
-  * Improve remote database support on macosx
-  * Do not revoke renewed certificate with same serial
-  * Fix default template finding on linux
-  * Use latest OpenSSL and Qt releases for the precompiled releases.
-* Please report issues on github <https://github.com/chris2511/xca/issues>
+## __官方更新日志：__
 
-## __Changelog:__
-
-A detailed changelog can be found here:
+详细的官方更新日志可以在这里找到：
 
 <https://hohnstaedt.de/xca/index.php/software/changelog>
 
-## __Documentation__
+## __XCA官方文档__
 
-This application is documented in the *Help* menu and here:
+本应用程序的文档可在 *帮助* 菜单中查看，也可在这里查看：
 
 <https://www.hohnstaedt.de/xca/index.php/documentation/manual>
 
-## __Build from Source__
+## __从源码构建__
 
-### Dependencies
+### 依赖项
 
-To build XCA you need:
- - a toolchain
- - cmake: https://cmake.org
- - Qt5 or Qt6: https://www.qt.io (5.10.1 or higher)
- - OpenSSL: https://www.openssl.org (1.1.1 or higher)
-   or libressl-3.6.x
- - Sphinx-Build: https://www.sphinx-doc.org
+构建 XCA 需要：
+ - 一个工具链
+ - cmake：https://cmake.org
+ - Qt5 或 Qt6：https://www.qt.io（5.10.1 或更高版本）
+ - OpenSSL：https://www.openssl.org（1.1.1 或更高版本）
+   或 libressl-3.6.x
+ - Sphinx-Build：https://www.sphinx-doc.org
 
 ### Linux / Unix
 
+ - 安装依赖项
+ 
+ - bash
+ 
  - Install the dependencies
    ```
    # Bookworm
@@ -49,49 +49,51 @@ To build XCA you need:
    # Or Qt6
    sudo apt install qt6-base-dev qt6-tools-dev
    ```
- - Clone: `git clone https://github.com/chris2511/xca.git`
- - Configure: `cmake -B build xca`
- - Make: `cmake --build build -j5`
- - Install: `sudo cmake --install build`
- - Or install local and copy later as root: `DESTDIR=DEST cmake --install build --prefix /usr`
+ - 克隆: `git clone https://github.com/chris2511/xca.git`
+ - 配置: `cmake -B build xca`
+ - 编译: `cmake --build build -j5`
+ - 安装: `sudo cmake --install build`
+ - 或先安装到本地，之后以 root 身份复制: `DESTDIR=DEST cmake --install build --prefix /usr`
 
-### Apple macos
+### Apple macOS
 
-- Install the dependencies
+- 安装依赖项
   ```
   xcode-select --install
   brew install openssl@3 qt6 python3 cmake
   pip3 install sphinx
   ```
-- Clone: `git clone https://github.com/chris2511/xca.git`
-- Configure: `cmake -B build xca`
-- Make: `cmake --build build -j5`
-- Build the DMG: `cd build && cpack`
-- Build the PKG: `cd build && cpack -G productbuild`
+- 克隆：`git clone https://github.com/chris2511/xca.git`
+- 配置：`cmake -B build xca`
+- 编译：`cmake --build build -j5`
+- 构建 DMG：`cd build && cpack`
+- 构建 PKG：`cd build && cpack -G productbuild`
 
-XCA can be used with Xcode after initializing the directory with:
+使用以下命令初始化目录后，XCA 即可在 Xcode 中使用：
 `cmake -G Xcode -B .`
-
+  
 ### Windows
 
-- Install the dependencies
-  - Install Python 3.11 for windows from the store or https://www.python.org/downloads/windows/
-  - Install OpenSSL from here: https://slproweb.com/download/Win64OpenSSL-3_1_5.msi and verify the sha256 from https://github.com/slproweb/opensslhashes/blob/master/win32_openssl_hashes.json
-  - To install the Qt libraries, cmake and the MinGW compiler [aqtinstall](https://github.com/miurahr/aqtinstall) is used.
-    Sphinx is used to generate the documentation
+- 安装依赖项
+  - 从 Microsoft Store 或 https://www.python.org/downloads/windows/ 安装 Windows 版 Python 3.11
+  - 从此处安装 OpenSSL：https://slproweb.com/download/Win64OpenSSL-3_1_5.msi，并从 https://github.com/slproweb/opensslhashes/blob/master/win32_openssl_hashes.json 校验 SHA256 哈希值
+  - 使用 [aqtinstall](https://github.com/miurahr/aqtinstall) 安装 Qt 库、cmake 和 MinGW 编译器。Sphinx 用于生成文档
+  
+  
     ```
     pip3 install sphinx aqtinstall
     ```
-  - Add the PATH shown by pip to your PATH
-  - Install Qt, cmake and the MinGW toolchain
+ - 将 pip 显示的 PATH 添加到你的 PATH 中
+  - 安装 Qt、cmake 和 MinGW 工具链
     ```
     aqt install-qt windows desktop 6.6.3 win64_mingw
     aqt install-tool windows desktop tools_mingw90 qt.tools.win64_mingw900
     aqt install-tool windows desktop tools_vcredist qt.tools.vcredist_64
     ```
-  - If 7z is missing, install it from the store. `7-Zip File Manager (unofficial)` or from 7-zip.org
-  - Install the "vcredist\\vcredist_64.exe"
-  - Add cmake, MinGW, OpenSSL and Qt6 to your Path
+  - 如果缺少 7z，从 Microsoft Store 安装 `7-Zip File Manager (unofficial)` 或从 7-zip.org 安装
+  - 安装 "vcredist\\vcredist_64.exe"
+  - 将 cmake、MinGW、OpenSSL 和 Qt6 添加到你的 PATH 中
+    
     ```
     %USERPROFILE%\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;
     %USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
@@ -99,41 +101,38 @@ XCA can be used with Xcode after initializing the directory with:
     %USERPROFILE%\Tools\mingw_64\bin;
     %USERPROFILE%\6.6.3\mingw_64\bin;
     ```
-  - Create `CMAKE_PREFIX_PATH` environment variable:
+ - 创建 `CMAKE_PREFIX_PATH` 环境变量：
     ```
     %USERPROFILE%\6.6.3\mingw_64\lib\cmake
     ```
-  - Install `https://wixtoolset.org/releases/` if you want to create the MSI installer
+  - 如需创建 MSI 安装程序，请安装 `https://wixtoolset.org/releases/`
 
-- Clone: `git clone https://github.com/chris2511/xca.git`
-- Configure: `cmake -B build -G "MinGW Makefiles" xca`
-- Make: `cmake --build build -j5`
-- Create the Portable App: `cmake --build build -t install`
-- Build the MSI installer (and the Portable App): `cd build ; cpack`
+- 克隆：`git clone https://github.com/chris2511/xca.git`
+- 配置：`cmake -B build -G "MinGW Makefiles" xca`
+- 编译：`cmake --build build -j5`
+- 创建便携版应用：`cmake --build build -t install`
+- 构建 MSI 安装程序（以及便携版应用）：`cd build ; cpack`
 
-## __SQL Remote Database Drivers__
+## __SQL 远程数据库驱动__
 
-MySQL plugins are not shipped with QT anymore because of license issues.
+由于许可证问题，Qt 不再附带 MySQL 插件。
 
 ### Linux
 
-- Debian: `libqt6sql6-psql` `libqt6sql6-mysql` or `libqt6sql6-odbc`.
-- RPM: `libqt6-database-plugin-pgsql` `libqt6-database-plugin-mysql` `libqt6-database-plugin-odbc`
+- Debian：`libqt6sql6-psql` `libqt6sql6-mysql` 或 `libqt6sql6-odbc`。
+- RPM：`libqt6-database-plugin-pgsql` `libqt6-database-plugin-mysql` `libqt6-database-plugin-odbc`
 
-They should pull in all necessary dependencies.
+它们会自动拉取所有必要的依赖项。
 
-### Apple macos
+### Apple macOS
 
-- **PostgreSQL**: Install the https://postgresapp.com/
-- **ODBC**: It requires the `/usr/local/opt/libiodbc/lib/libiodbc.2.dylib`.
-    When installing unixodbc via `brew` the library must be symlinked from
-    `/opt/homebrew/Cellar/libiodbc/3.52.16/lib/libiodbc.2.dylib`
-- **MariaDB**: Driver included since XCA 2.8.0
+- **PostgreSQL**：安装 https://postgresapp.com/
+- **ODBC**：需要 `/usr/local/opt/libiodbc/lib/libiodbc.2.dylib`。通过 `brew` 安装 unixodbc 时，必须从 `/opt/homebrew/Cellar/libiodbc/3.52.16/lib/libiodbc.2.dylib` 创建该库的符号链接
+- **MariaDB**：自 XCA 2.8.0 起内置驱动
 
 ### Windows
 
-- **PostgreSQL**: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads (Commandline tools).
-  Add the `bin` directory of the Postgres installation directory to your PATH (C:\\Program Files\\PostgreSQL\\16)
-- **ODBC**: Use the `ODBC Datasources 64bit app` to configure the SQL Server
-- **MariaDB (MySQL)**: Install the Plugin from here: https://github.com/thecodemonkey86/qt_mysql_driver.
-  Select the MinGW variant and install it as documented.
+- **PostgreSQL**：https://www.enterprisedb.com/downloads/postgres-postgresql-downloads（命令行工具）。将 Postgres 安装目录下的 `bin` 目录添加到你的 PATH 中（C:\\Program Files\\PostgreSQL\\16）
+- **ODBC**：使用 `ODBC Datasources 64bit app` 配置 SQL Server
+- **MariaDB (MySQL)**：从此处安装插件：https://github.com/thecodemonkey86/qt_mysql_driver。选择 MinGW 版本，并按照文档说明进行安装。
+
