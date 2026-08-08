@@ -1,0 +1,10 @@
+*.o
+*.obj
+*.rej
+*.orig
+*.dll
+*.h.gch
+ui_*.h
+moc_*
+xca
+misc/variables.wxi

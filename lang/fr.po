@@ -1,0 +1,5168 @@
+#
+# demonipuch <Unknown>, 2012, 2014, 2015.
+# Patrick Monnerat <.>, 2011-2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xca 1.3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-16 18:14+0200\n"
+"PO-Revision-Date: 2024-10-01 15:58+0200\n"
+"Last-Translator: Patrick Monnerat <.>\n"
+"Language-Team: French <>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 45.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Qt-Contexts: true\n"
+
+#: ../ui/CaProperties.ui:14
+msgctxt "CaProperties|"
+msgid "Form"
+msgstr "Forme"
+
+#: ../ui/CaProperties.ui:20
+msgctxt "CaProperties|"
+msgid "Days until next CRL issuing"
+msgstr ""
+"Nombre de jours avant la génération de la prochaine liste de révocation"
+
+#: ../ui/CaProperties.ui:30
+msgctxt "CaProperties|"
+msgid "Default template"
+msgstr "Modèle par défaut"
+
+#: ../widgets/CertDetail.cpp:139 ../ui/CertDetail.ui:30
+msgctxt "CertDetail|"
+msgid "Details of the Certificate"
+msgstr "Détails du Certificat"
+
+#: ../ui/CertDetail.ui:165
+msgctxt "CertDetail|"
+msgid "Serial"
+msgstr "Numéro de série"
+
+#: ../ui/CertDetail.ui:178
+msgctxt "CertDetail|"
+msgid "The serial number of the certificate"
+msgstr "Le numéro de série du certificat"
+
+#: ../ui/CertDetail.ui:113
+msgctxt "CertDetail|"
+msgid "The internal name of the certificate in the database"
+msgstr "Le nom interne du certificat dans la base de données"
+
+#: ../ui/CertDetail.ui:78
+msgctxt "CertDetail|"
+msgid "Status"
+msgstr "Etat"
+
+#: ../ui/CertDetail.ui:106
+msgctxt "CertDetail|"
+msgid "Internal name"
+msgstr "Nom interne"
+
+#: ../ui/CertDetail.ui:120
+msgctxt "CertDetail|"
+msgid "Signature"
+msgstr "Signature"
+
+#: ../ui/CertDetail.ui:145
+msgctxt "CertDetail|"
+msgid "Key"
+msgstr "Clé"
+
+#: ../ui/CertDetail.ui:191
+msgctxt "CertDetail|"
+msgid "Fingerprints"
+msgstr "Empreinte"
+
+#: ../ui/CertDetail.ui:203
+msgctxt "CertDetail|"
+msgid "MD5"
+msgstr "MD5"
+
+#: ../ui/CertDetail.ui:216
+msgctxt "CertDetail|"
+msgid "An md5 hashsum of the certificate"
+msgstr "La somme de hachage MD5 du certificat"
+
+#: ../ui/CertDetail.ui:229
+msgctxt "CertDetail|"
+msgid "SHA1"
+msgstr "SHA1"
+
+#: ../ui/CertDetail.ui:242
+msgctxt "CertDetail|"
+msgid "A SHA-1 hashsum of the certificate"
+msgstr "La somme de hachage SHA-1 du certificat"
+
+#: ../ui/CertDetail.ui:255
+msgctxt "CertDetail|"
+msgid "SHA256"
+msgstr "SHA256"
+
+#: ../ui/CertDetail.ui:268
+msgctxt "CertDetail|"
+msgid "A SHA-256 hashsum of the certificate"
+msgstr "La somme de hachage SHA-256 du certificat"
+
+#: ../ui/CertDetail.ui:278
+msgctxt "CertDetail|"
+msgid "Validity"
+msgstr "Validité"
+
+#: ../ui/CertDetail.ui:296
+msgctxt "CertDetail|"
+msgid "The time since the certificate is valid"
+msgstr "Le moment depuis lequel le certificat est valide"
+
+#: ../ui/CertDetail.ui:303
+msgctxt "CertDetail|"
+msgid "The time until the certificate is valid"
+msgstr "Le moment auquel le certificat échoit"
+
+#: ../ui/CertDetail.ui:337
+msgctxt "CertDetail|"
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../ui/CertDetail.ui:359
+msgctxt "CertDetail|"
+msgid "Issuer"
+msgstr "Emetteur"
+
+#: ../ui/CertDetail.ui:391
+msgctxt "CertDetail|"
+msgid "Extensions"
+msgstr "Extensions"
+
+#: ../ui/CertDetail.ui:412
+msgctxt "CertDetail|"
+msgid "Validation"
+msgstr "Validation"
+
+#: ../ui/CertDetail.ui:418
+msgctxt "CertDetail|"
+msgid "Purposes"
+msgstr "Buts"
+
+#: ../ui/CertDetail.ui:430
+msgctxt "CertDetail|"
+msgid "Strict RFC 5280 validation"
+msgstr "Validation RFC 5280 stricte"
+
+#: ../ui/CertDetail.ui:443
+msgctxt "CertDetail|"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../ui/CertDetail.ui:381
+msgctxt "CertDetail|"
+msgid "Attributes"
+msgstr "Attributs"
+
+#: ../widgets/CertDetail.cpp:35 ../ui/CertDetail.ui:404
+msgctxt "CertDetail|"
+msgid "Show config"
+msgstr "Afficher la configuration"
+
+#: ../widgets/CertDetail.cpp:39
+msgctxt "CertDetail|"
+msgid "Show extensions"
+msgstr "Afficher les extensions"
+
+#: ../widgets/CertDetail.cpp:71
+msgctxt "CertDetail|"
+msgid "Show public key"
+msgstr "Afficher la clé publique"
+
+#: ../widgets/CertDetail.cpp:74
+msgctxt "CertDetail|"
+msgid "This key is not in the database."
+msgstr "Cette clé ne figure pas dans la base de données"
+
+#: ../widgets/CertDetail.cpp:78
+msgctxt "CertDetail|"
+msgid "Not available"
+msgstr "Non disponible"
+
+#: ../widgets/CertDetail.cpp:127
+msgctxt "CertDetail|"
+msgid "No verification errors found."
+msgstr "Aucune erreur de validation trouvée."
+
+#: ../widgets/CertDetail.cpp:152
+msgctxt "CertDetail|"
+msgid "Signer unknown"
+msgstr "Signataire inconnu"
+
+#: ../widgets/CertDetail.cpp:156
+msgctxt "CertDetail|"
+msgid "Self signed"
+msgstr "Auto-signé"
+
+#: ../widgets/CertDetail.cpp:186
+#, qt-format
+msgctxt "CertDetail|"
+msgid "Revoked at %1"
+msgstr "Révoqué le %1"
+
+#: ../widgets/CertDetail.cpp:191
+msgctxt "CertDetail|"
+msgid "Not valid"
+msgstr "Invalide"
+
+#: ../widgets/CertDetail.cpp:195
+msgctxt "CertDetail|"
+msgid "Valid"
+msgstr "Valide"
+
+#: ../widgets/CertDetail.cpp:216
+msgctxt "CertDetail|"
+msgid "Details of the certificate signing request"
+msgstr "Détails de la requête de signature"
+
+#: ../ui/CertExtend.ui:30
+msgctxt "CertExtend|"
+msgid "Certificate renewal"
+msgstr "Renouvellement du certificat"
+
+#: ../ui/CertExtend.ui:74
+msgctxt "CertExtend|"
+msgid ""
+"This will create a new certificate as a copy of the old one with a new "
+"serial number and adjusted validity values."
+msgstr ""
+"Créer un nouveau certificat conforme à l'ancien, mais avec un nouveau numéro "
+"de série et les limites de validité ajustées."
+
+#: ../ui/CertExtend.ui:100
+msgctxt "CertExtend|"
+msgid "Validity"
+msgstr "Validité"
+
+#: ../ui/CertExtend.ui:111
+msgctxt "CertExtend|"
+msgid "Not before"
+msgstr "Pas avant"
+
+#: ../ui/CertExtend.ui:118
+msgctxt "CertExtend|"
+msgid "Not after"
+msgstr "Pas après"
+
+#: ../ui/CertExtend.ui:144
+msgctxt "CertExtend|"
+msgid "Time range"
+msgstr "Intervalle de temps"
+
+#: ../ui/CertExtend.ui:150
+msgctxt "CertExtend|"
+msgid "Local time"
+msgstr "Heure locale"
+
+#: ../ui/CertExtend.ui:158
+msgctxt "CertExtend|"
+msgid "Days"
+msgstr "Jours"
+
+#: ../ui/CertExtend.ui:163
+msgctxt "CertExtend|"
+msgid "Months"
+msgstr "Mois"
+
+#: ../ui/CertExtend.ui:168
+msgctxt "CertExtend|"
+msgid "Years"
+msgstr "Années"
+
+#: ../ui/CertExtend.ui:176
+msgctxt "CertExtend|"
+msgid "No well-defined expiration"
+msgstr "Pas de date d'expiration précise"
+
+#: ../ui/CertExtend.ui:183
+msgctxt "CertExtend|"
+msgid "Midnight"
+msgstr "Minuit"
+
+#: ../ui/CertExtend.ui:190
+msgctxt "CertExtend|"
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../ui/CertExtend.ui:216
+msgctxt "CertExtend|"
+msgid "Revoke old certificate"
+msgstr "Révoquer l'ancien certificat"
+
+#: ../ui/CertExtend.ui:226
+msgctxt "CertExtend|"
+msgid "Replace old certificate"
+msgstr "Remplacer l'ancien certificat"
+
+#: ../ui/CertExtend.ui:236
+msgctxt "CertExtend|"
+msgid "Keep serial number"
+msgstr "Conserver le numéro de série"
+
+#: ../widgets/CertExtend.cpp:43
+msgctxt "CertExtend|"
+msgid ""
+"The certificate will be earlier valid than the signer. This is probably not "
+"what you want."
+msgstr ""
+"Le certificat serait valide avant son signataire. Ce n'est probablement pas "
+"ce qui est désiré."
+
+#: ../widgets/CertExtend.cpp:45 ../widgets/CertExtend.cpp:67
+msgctxt "CertExtend|"
+msgid "Edit dates"
+msgstr "Modifier les limites de validité"
+
+#: ../widgets/CertExtend.cpp:46 ../widgets/CertExtend.cpp:68
+msgctxt "CertExtend|"
+msgid "Abort rollout"
+msgstr "Interrompre le déploiement"
+
+#: ../widgets/CertExtend.cpp:47 ../widgets/CertExtend.cpp:69
+msgctxt "CertExtend|"
+msgid "Continue rollout"
+msgstr "Continuer le déploiement"
+
+#: ../widgets/CertExtend.cpp:48 ../widgets/CertExtend.cpp:70
+msgctxt "CertExtend|"
+msgid "Adjust date and continue"
+msgstr "Ajuster la date et continuer"
+
+#: ../widgets/CertExtend.cpp:65
+msgctxt "CertExtend|"
+msgid ""
+"The certificate will be longer valid than the signer. This is probably not "
+"what you want."
+msgstr ""
+"Le certificat serait valide plus longtemps que son signataire. Ce n'est "
+"probablement pas ce qui est désiré."
+
+#: ../widgets/CertTreeView.cpp:34
+msgctxt "CertTreeView|"
+msgid "Hide unusable certificates"
+msgstr "Masquer les certificats inutilisables"
+
+#: ../widgets/CertTreeView.cpp:41
+msgctxt "CertTreeView|"
+msgid "Import PKCS#12"
+msgstr "Importer en PKCS#12"
+
+#: ../widgets/CertTreeView.cpp:42
+msgctxt "CertTreeView|"
+msgid "Import from PKCS#7"
+msgstr "Importer en PKCS#7"
+
+#: ../widgets/CertTreeView.cpp:70
+msgctxt "CertTreeView|"
+msgid "Request"
+msgstr "Requête"
+
+#: ../widgets/CertTreeView.cpp:72
+msgctxt "CertTreeView|"
+msgid "Security token"
+msgstr "Jeton de sécurité"
+
+#: ../widgets/CertTreeView.cpp:74
+msgctxt "CertTreeView|"
+msgid "Other token"
+msgstr "Autre jeton"
+
+#: ../widgets/CertTreeView.cpp:78
+msgctxt "CertTreeView|"
+msgid "Similar Certificate"
+msgstr "Certificat similaire"
+
+#: ../widgets/CertTreeView.cpp:81
+msgctxt "CertTreeView|"
+msgid "Delete from Security token"
+msgstr "Détruire sur le jeton de sécurité"
+
+#: ../widgets/CertTreeView.cpp:84
+msgctxt "CertTreeView|"
+msgid "CA"
+msgstr "CA"
+
+#: ../widgets/CertTreeView.cpp:85
+msgctxt "CertTreeView|"
+msgid "Properties"
+msgstr "Propriétés"
+
+#: ../widgets/CertTreeView.cpp:86
+msgctxt "CertTreeView|"
+msgid "Generate CRL"
+msgstr "Générer la liste de révocation"
+
+#: ../widgets/CertTreeView.cpp:87
+msgctxt "CertTreeView|"
+msgid "Manage revocations"
+msgstr "Gérer les révocations"
+
+#: ../widgets/CertTreeView.cpp:91
+msgctxt "CertTreeView|"
+msgid "Import OpenVPN tls-auth key"
+msgstr "Importer la clé tls-auth de OpenVPN"
+
+#: ../widgets/CertTreeView.cpp:95 ../widgets/CertTreeView.cpp:98
+msgctxt "CertTreeView|"
+msgid "Renewal"
+msgstr "Renouvellement"
+
+#: ../widgets/CertTreeView.cpp:100
+msgctxt "CertTreeView|"
+msgid "Revoke"
+msgstr "Révoquer"
+
+#: ../widgets/CertTreeView.cpp:102
+msgctxt "CertTreeView|"
+msgid "Unrevoke"
+msgstr "Dé-révoquer"
+
+#: ../widgets/CertTreeView.cpp:182
+msgctxt "CertTreeView|"
+msgid "Plain View"
+msgstr "Vue à plat"
+
+#: ../widgets/CertTreeView.cpp:182
+msgctxt "CertTreeView|"
+msgid "Tree View"
+msgstr "Vue arborescente"
+
+#: ../widgets/CertTreeView.cpp:211
+msgctxt "CertTreeView|"
+msgid "days"
+msgstr "jours"
+
+#: ../widgets/CertTreeView.cpp:219
+msgctxt "CertTreeView|"
+msgid "No template"
+msgstr "Pas de modèle"
+
+#: ../widgets/CertTreeView.cpp:224
+msgctxt "CertTreeView|"
+msgid "CA Properties"
+msgstr "Propriétés du CA"
+
+#: ../widgets/CertTreeView.cpp:266
+msgctxt "CertTreeView|"
+msgid "Certificate export"
+msgstr "Exportation de certificat"
+
+#: ../widgets/CertTreeView.cpp:267
+msgctxt "CertTreeView|"
+msgid "X509 Certificates ( *.pem *.cer *.crt *.p12 *.pfx *.p7b )"
+msgstr "Certificats X509 ( *.pem *.cer *.crt *.p12  *.pfx *.p7b )"
+
+#: ../widgets/CertTreeView.cpp:268
+msgctxt "CertTreeView|"
+msgid "vCalendar entry ( *.ics )"
+msgstr "inscription vCalendar ( *ics )"
+
+#: ../widgets/CertTreeView.cpp:269
+msgctxt "CertTreeView|"
+msgid "OpenVPN file ( *.ovpn )"
+msgstr "Fichier OpenVPN ( *.ovpn )"
+
+#: ../widgets/CertTreeView.cpp:270
+msgctxt "CertTreeView|"
+msgid "OpenVPN tls-auth key ( *.key )"
+msgstr "Clé tls-auth de OpenVPN ( *.key )"
+
+#: ../widgets/clicklabel.cpp:37
+msgctxt "ClickLabel|"
+msgid "Double click for details"
+msgstr "Double-cliquer pour afficher les détails"
+
+#: ../ui/CrlDetail.ui:30
+msgctxt "CrlDetail|"
+msgid "Details of the Revocation list"
+msgstr "Détails de la liste de révocation"
+
+#: ../ui/CrlDetail.ui:78
+msgctxt "CrlDetail|"
+msgid "&Status"
+msgstr "&Etat"
+
+#: ../ui/CrlDetail.ui:144
+msgctxt "CrlDetail|"
+msgid "Version"
+msgstr "Version"
+
+#: ../ui/CrlDetail.ui:163
+msgctxt "CrlDetail|"
+msgid "Signature"
+msgstr "Signature"
+
+#: ../ui/CrlDetail.ui:170
+msgctxt "CrlDetail|"
+msgid "Signed by"
+msgstr "Signée par"
+
+#: ../ui/CrlDetail.ui:177
+msgctxt "CrlDetail|"
+msgid "Name"
+msgstr "Nom"
+
+#: ../ui/CrlDetail.ui:184
+msgctxt "CrlDetail|"
+msgid "The internal name of the CRL in the database"
+msgstr "Le nom interne de la liste de révocation dans la base de données"
+
+#: ../ui/CrlDetail.ui:197
+msgctxt "CrlDetail|"
+msgid "issuing dates"
+msgstr "dates d'émission"
+
+#: ../ui/CrlDetail.ui:215
+msgctxt "CrlDetail|"
+msgid "Next update"
+msgstr "Prochaine mise-à-jour"
+
+#: ../ui/CrlDetail.ui:222
+msgctxt "CrlDetail|"
+msgid "Last update"
+msgstr "Dernière mise-à-jour"
+
+#: ../ui/CrlDetail.ui:255
+msgctxt "CrlDetail|"
+msgid "&Issuer"
+msgstr "&Emetteur"
+
+#: ../ui/CrlDetail.ui:277
+msgctxt "CrlDetail|"
+msgid "&Extensions"
+msgstr "&Extensions"
+
+#: ../ui/CrlDetail.ui:306
+msgctxt "CrlDetail|"
+msgid "&Revocation list"
+msgstr "Liste de &révocation"
+
+#: ../ui/CrlDetail.ui:340
+msgctxt "CrlDetail|"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../widgets/CrlDetail.cpp:48
+msgctxt "CrlDetail|"
+msgid "Failed"
+msgstr "Echoué"
+
+#: ../widgets/CrlDetail.cpp:53
+msgctxt "CrlDetail|"
+msgid "Unknown signer"
+msgstr "Signataire inconnu"
+
+#: ../widgets/CrlDetail.cpp:56
+msgctxt "CrlDetail|"
+msgid "Verification not possible"
+msgstr "Vérification impossible"
+
+#: ../widgets/CrlTreeView.cpp:39
+msgctxt "CrlTreeView|"
+msgid "There are no CA certificates for CRL generation"
+msgstr "Il n'y a pas de certificat CA pour la génération de la CRL"
+
+#: ../widgets/CrlTreeView.cpp:47
+msgctxt "CrlTreeView|"
+msgid "Select CA certificate"
+msgstr "Sélectionner un certificat d'autorité"
+
+#: ../widgets/CrlTreeView.cpp:69
+msgctxt "CrlTreeView|"
+msgid "Revocation list export"
+msgstr "Exportation d'une liste de révocation"
+
+#: ../widgets/CrlTreeView.cpp:70
+msgctxt "CrlTreeView|"
+msgid "CRL ( *.pem *.der *.crl )"
+msgstr "CRL ( *.pem *.der *.crl )"
+
+#: ../widgets/CrlTreeView.cpp:71
+msgctxt "CrlTreeView|"
+msgid "vCalendar entry ( *.ics )"
+msgstr "inscription vCalendar ( *.ics )"
+
+#: ../ui/ExportDialog.ui:76
+msgctxt "ExportDialog|"
+msgid "Name"
+msgstr "Nom"
+
+#: ../ui/ExportDialog.ui:83
+msgctxt "ExportDialog|"
+msgid "The internal name of the CRL in the database"
+msgstr "Le nom interne de la liste de révocation dans la base de données"
+
+#: ../ui/ExportDialog.ui:112
+msgctxt "ExportDialog|"
+msgid "..."
+msgstr "..."
+
+#: ../ui/ExportDialog.ui:96
+msgctxt "ExportDialog|"
+msgid "Filename"
+msgstr "Nom du fichier"
+
+#: ../ui/ExportDialog.ui:127
+msgctxt "ExportDialog|"
+msgid "Each Item in a separate file"
+msgstr "Chaque objet dans un fichier séparé"
+
+#: ../ui/ExportDialog.ui:134
+msgctxt "ExportDialog|"
+msgid "Same encryption password for all items"
+msgstr "Même mot de passe de chiffrement pour tous les objets"
+
+#: ../ui/ExportDialog.ui:141
+msgctxt "ExportDialog|"
+msgid "Export comment into PEM file"
+msgstr "Exporter le commentaire dans le fichier PEM"
+
+#: ../ui/ExportDialog.ui:121
+msgctxt "ExportDialog|"
+msgid "Export Format"
+msgstr "Format d'exportation"
+
+#: ../widgets/ExportDialog.cpp:43
+#, qt-format
+msgctxt "ExportDialog|"
+msgid "%n selected item(s)"
+msgid_plural "%n selected item(s)"
+msgstr[0] "%n objet(s) sélectionné(s)"
+msgstr[1] "%n objet(s) sélectionné(s)"
+
+#: ../widgets/ExportDialog.cpp:53
+msgctxt "ExportDialog|"
+msgid "All files ( * )"
+msgstr "Tous les fichiers ( * )"
+
+#: ../widgets/ExportDialog.cpp:126
+#, qt-format
+msgctxt "ExportDialog|"
+msgid "The file: '%1' already exists!"
+msgstr "Le fichier '%1' existe déjà!"
+
+#: ../widgets/ExportDialog.cpp:127
+msgctxt "ExportDialog|"
+msgid "Overwrite"
+msgstr "Ecraser"
+
+#: ../widgets/ExportDialog.cpp:128
+msgctxt "ExportDialog|"
+msgid "Do not overwrite"
+msgstr "Ne pas écraser"
+
+#: ../widgets/ExportDialog.cpp:132
+#, qt-format
+msgctxt "ExportDialog|"
+msgid "The path: '%1' exist, but is not a file"
+msgstr "Le chemin '%1' existe mais n'est pas un fichier"
+
+#: ../widgets/ExportDialog.cpp:145
+#, qt-format
+msgctxt "ExportDialog|"
+msgid "The path: '%1' exist, but is not a directory"
+msgstr "Le chemin '%1' existe mais n'est pas un répertoire"
+
+#: ../widgets/ExportDialog.cpp:150
+#, qt-format
+msgctxt "ExportDialog|"
+msgid "The directory: '%1' does not exist. Should it be created?"
+msgstr "Le répertoire '%1' n'existe pas. Faut-il le créer ?"
+
+#: ../widgets/ExportDialog.cpp:152
+msgctxt "ExportDialog|"
+msgid "Create"
+msgstr "Créer"
+
+#: ../widgets/ExportDialog.cpp:158
+#, qt-format
+msgctxt "ExportDialog|"
+msgid "Failed to create directory '%1'"
+msgstr "Impossible de créer le répertoire '%1'"
+
+#: ../widgets/ExportDialog.cpp:206
+msgctxt "ExportDialog|"
+msgid "Directory"
+msgstr "Répertoire"
+
+#: ../ui/TimeInput.ui:32
+msgctxt "Form|"
+msgid "last update"
+msgstr "Dernière mise-à-jour"
+
+#: ../ui/TimeInput.ui:46
+msgctxt "Form|"
+msgid "next update"
+msgstr "Prochaine mise-à-jour"
+
+#: ../ui/TimeInput.ui:70
+msgctxt "Form|"
+msgid "Days"
+msgstr "Jours"
+
+#: ../ui/TimeInput.ui:75
+msgctxt "Form|"
+msgid "Months"
+msgstr "Mois"
+
+#: ../ui/TimeInput.ui:80
+msgctxt "Form|"
+msgid "Years"
+msgstr "Années"
+
+#: ../ui/TimeInput.ui:88
+msgctxt "Form|"
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../ui/TimeInput.ui:95
+msgctxt "Form|"
+msgid "Midnight"
+msgstr "Minuit"
+
+#: ../ui/TimeInput.ui:102
+msgctxt "Form|"
+msgid "Local time"
+msgstr "Heure locale"
+
+#: ../ui/TimeInput.ui:109
+msgctxt "Form|"
+msgid "No well-defined expiration"
+msgstr "Pas de date d'expiration précise"
+
+#: ../ui/Help.ui:36
+msgctxt "Help|"
+msgid "<<"
+msgstr "<<"
+
+#: ../ui/Help.ui:46
+msgctxt "Help|"
+msgid ">>"
+msgstr "<<"
+
+#: ../ui/Help.ui:72
+msgctxt "Help|"
+msgid "&Done"
+msgstr "&OK"
+
+#: ../ui/ImportMulti.ui:36
+msgctxt "ImportMulti|"
+msgid "Import PKI Items"
+msgstr "Importer des objets PKI"
+
+#: ../ui/ImportMulti.ui:94
+msgctxt "ImportMulti|"
+msgid "Import &All"
+msgstr "Importer &tout"
+
+#: ../ui/ImportMulti.ui:101
+msgctxt "ImportMulti|"
+msgid "&Import"
+msgstr "&Importer"
+
+#: ../ui/ImportMulti.ui:108
+msgctxt "ImportMulti|"
+msgid "&Done"
+msgstr "&OK"
+
+#: ../ui/ImportMulti.ui:115
+msgctxt "ImportMulti|"
+msgid "&Remove from list"
+msgstr "&Retirer de la liste"
+
+#: ../ui/ImportMulti.ui:122
+msgctxt "ImportMulti|"
+msgid "Details"
+msgstr "Détails"
+
+#: ../ui/ImportMulti.ui:129
+msgctxt "ImportMulti|"
+msgid "Delete from token"
+msgstr "Enlever du jeton"
+
+#: ../ui/ImportMulti.ui:136
+msgctxt "ImportMulti|"
+msgid "Rename on token"
+msgstr "Renommer dans le jeton"
+
+#: ../widgets/ImportMulti.cpp:66
+#, qt-format
+msgctxt "ImportMulti|"
+msgid ""
+"\n"
+"Name: %1\n"
+"Model: %2\n"
+"Serial: %3"
+msgstr ""
+"\n"
+"Nom: %1\n"
+"Modèle: %2\n"
+"Numéro de série: %3"
+
+#: ../widgets/ImportMulti.cpp:71
+msgctxt "ImportMulti|"
+msgid "Manage security token"
+msgstr "Gérer les jetons de sécurité"
+
+#: ../widgets/ImportMulti.cpp:106 ../widgets/ImportMulti.cpp:300
+#, qt-format
+msgctxt "ImportMulti|"
+msgid "The type of the item '%1' is not recognized"
+msgstr "Le type de l'objet '%1' n'est pas reconnu"
+
+#: ../widgets/ImportMulti.cpp:252
+msgctxt "ImportMulti|"
+msgid "Could not open the default database"
+msgstr "Impossible d'ouvrir la base de données par défaut"
+
+#: ../widgets/ImportMulti.cpp:328
+#, qt-format
+msgctxt "ImportMulti|"
+msgid "The file '%1' did not contain PKI data"
+msgstr "Le fichier '%1' ne contient pas de données PKI"
+
+#: ../widgets/ImportMulti.cpp:331
+#, qt-format
+msgctxt "ImportMulti|"
+msgid "The %1 files: '%2' did not contain PKI data"
+msgstr "Les %1 fichiers: '%2' ne contiennent pas de données PKI"
+
+#: ../ui/ItemProperties.ui:22
+msgctxt "ItemProperties|"
+msgid "Name"
+msgstr "Nom"
+
+#: ../ui/ItemProperties.ui:32
+msgctxt "ItemProperties|"
+msgid "Source"
+msgstr "Source"
+
+#: ../ui/ItemProperties.ui:42
+msgctxt "ItemProperties|"
+msgid "Insertion date"
+msgstr "Date d'insertion"
+
+#: ../ui/ItemProperties.ui:54
+msgctxt "ItemProperties|"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../ui/KeyDetail.ui:82
+msgctxt "KeyDetail|"
+msgid "Name"
+msgstr "Nom"
+
+#: ../ui/KeyDetail.ui:89
+msgctxt "KeyDetail|"
+msgid "The internal name of the key used by xca"
+msgstr "Le nom interne de la clé utilisé par xca"
+
+#: ../widgets/KeyDetail.cpp:101
+msgctxt "KeyDetail|"
+msgid "Security token"
+msgstr "Jeton de sécurité"
+
+#: ../ui/KeyDetail.ui:286
+msgctxt "KeyDetail|"
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+#: ../ui/KeyDetail.ui:296
+msgctxt "KeyDetail|"
+msgid "Serial"
+msgstr "Numéro de série"
+
+#: ../ui/KeyDetail.ui:102 ../ui/KeyDetail.ui:182
+msgctxt "KeyDetail|"
+msgid "Key"
+msgstr "Clé"
+
+#: ../ui/KeyDetail.ui:110
+msgctxt "KeyDetail|"
+msgid "Public Exponent"
+msgstr "Exposant public"
+
+#: ../ui/KeyDetail.ui:136
+msgctxt "KeyDetail|"
+msgid "Keysize"
+msgstr "Taille de la clé"
+
+#: ../ui/KeyDetail.ui:163
+msgctxt "KeyDetail|"
+msgid "Private Exponent"
+msgstr "Exposant privé"
+
+#: ../ui/KeyDetail.ui:214
+msgctxt "KeyDetail|"
+msgid "Security Token"
+msgstr "Jeton de sécurité"
+
+#: ../ui/KeyDetail.ui:235 ../ui/KeyDetail.ui:306
+msgctxt "KeyDetail|"
+msgid "Label"
+msgstr "Etiquette"
+
+#: ../ui/KeyDetail.ui:245
+msgctxt "KeyDetail|"
+msgid "PKCS#11 ID"
+msgstr "ID PKCS#11"
+
+#: ../ui/KeyDetail.ui:270
+msgctxt "KeyDetail|"
+msgid "Token information"
+msgstr "Information du jeton"
+
+#: ../ui/KeyDetail.ui:276
+msgctxt "KeyDetail|"
+msgid "Model"
+msgstr "Modèle"
+
+#: ../ui/KeyDetail.ui:324
+msgctxt "KeyDetail|"
+msgid "Fingerprint"
+msgstr "Empreinte"
+
+#: ../ui/KeyDetail.ui:329
+msgctxt "KeyDetail|"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../widgets/KeyDetail.cpp:84
+#, qt-format
+msgctxt "KeyDetail|"
+msgid "Details of the %1 key"
+msgstr "Détails de la clé %1"
+
+#: ../widgets/KeyDetail.cpp:90
+msgctxt "KeyDetail|"
+msgid "Not available"
+msgstr "Non disponible"
+
+#: ../widgets/KeyDetail.cpp:103
+msgctxt "KeyDetail|"
+msgid "Available"
+msgstr "Disponible"
+
+#: ../widgets/KeyDetail.cpp:112
+msgctxt "KeyDetail|"
+msgid "Sub prime"
+msgstr "Sous-premier"
+
+#: ../widgets/KeyDetail.cpp:113 ../widgets/KeyDetail.cpp:122
+#: ../widgets/KeyDetail.cpp:134
+msgctxt "KeyDetail|"
+msgid "Public key"
+msgstr "Clé publique"
+
+#: ../widgets/KeyDetail.cpp:114 ../widgets/KeyDetail.cpp:123
+#: ../widgets/KeyDetail.cpp:135
+msgctxt "KeyDetail|"
+msgid "Private key"
+msgstr "Clé privée"
+
+#: ../widgets/KeyDetail.cpp:124 ../widgets/KeyDetail.cpp:136
+msgctxt "KeyDetail|"
+msgid "Curve name"
+msgstr "Nom de la courbe"
+
+#: ../widgets/KeyDetail.cpp:143
+msgctxt "KeyDetail|"
+msgid "Unknown key"
+msgstr "Clé inconnue"
+
+#: ../widgets/KeyTreeView.cpp:31
+msgctxt "KeyTreeView|"
+msgid "Change password"
+msgstr "Changer le mot de passe"
+
+#: ../widgets/KeyTreeView.cpp:35
+msgctxt "KeyTreeView|"
+msgid "Reset password"
+msgstr "Effacer le mot de passe"
+
+#: ../widgets/KeyTreeView.cpp:47
+msgctxt "KeyTreeView|"
+msgid "Change PIN"
+msgstr "Changer le NIP"
+
+#: ../widgets/KeyTreeView.cpp:49
+msgctxt "KeyTreeView|"
+msgid "Init PIN with SO PIN (PUK)"
+msgstr "Initialiser le NIP avec le PUK"
+
+#: ../widgets/KeyTreeView.cpp:51
+msgctxt "KeyTreeView|"
+msgid "Change SO PIN (PUK)"
+msgstr "Changer le PUK"
+
+#: ../widgets/KeyTreeView.cpp:54
+msgctxt "KeyTreeView|"
+msgid "Security token"
+msgstr "Jeton de sécurité"
+
+#: ../widgets/KeyTreeView.cpp:91 ../widgets/KeyTreeView.cpp:109
+#: ../widgets/KeyTreeView.cpp:127
+msgctxt "KeyTreeView|"
+msgid "This is not a token"
+msgstr "Ce n'est pas un jeton"
+
+#: ../widgets/KeyTreeView.cpp:156
+#, qt-format
+msgctxt "KeyTreeView|"
+msgid ""
+"Shall the original key '%1' be replaced by the key on the token?\n"
+"This will delete the key '%1' and make it unexportable"
+msgstr ""
+"La clé originale '%1' doit-elle être remplacée par la clé en provenance du "
+"jeton ?\n"
+"Cela détruirait la clé '%1' et la rendrait non-exportable."
+
+#: ../widgets/KeyTreeView.cpp:203
+msgctxt "KeyTreeView|"
+msgid "Key export"
+msgstr "Exporter la clé"
+
+#: ../widgets/KeyTreeView.cpp:204
+msgctxt "KeyTreeView|"
+msgid "Private Keys ( *.pem *.der *.pk8 );; SSH Public Keys ( *.pub )"
+msgstr "Clés privées ( *.pem *.der *.pk8 );; Clé publiques SSH ( *.pub )"
+
+#: ../widgets/KeyTreeView.cpp:206
+msgctxt "KeyTreeView|"
+msgid "SSH Private Keys ( *.priv )"
+msgstr "Clés SSH privées ( *.priv )"
+
+#: ../widgets/KeyTreeView.cpp:207
+msgctxt "KeyTreeView|"
+msgid "Microsoft PVK Keys ( *.pvk )"
+msgstr "Clés Microsoft PVK ( *.pvk )"
+
+#: ../ui/MainWindow.ui:25
+msgctxt "MainWindow|"
+msgid "Private Keys"
+msgstr "Clés privées"
+
+#: ../ui/MainWindow.ui:49
+msgctxt "MainWindow|"
+msgid "&New Key"
+msgstr "&Nouvelle clé"
+
+#: ../ui/MainWindow.ui:56 ../ui/MainWindow.ui:155 ../ui/MainWindow.ui:241
+#: ../ui/MainWindow.ui:369 ../ui/MainWindow.ui:434
+msgctxt "MainWindow|"
+msgid "&Export"
+msgstr "&Exporter"
+
+#: ../ui/MainWindow.ui:63 ../ui/MainWindow.ui:162 ../ui/MainWindow.ui:248
+#: ../ui/MainWindow.ui:362 ../ui/MainWindow.ui:441
+msgctxt "MainWindow|"
+msgid "&Import"
+msgstr "&Importer"
+
+#: ../ui/MainWindow.ui:70
+msgctxt "MainWindow|"
+msgid "Import PFX (PKCS#12)"
+msgstr "Importer en PFX (PKCS#12)"
+
+#: ../ui/MainWindow.ui:77 ../ui/MainWindow.ui:169 ../ui/MainWindow.ui:255
+#: ../ui/MainWindow.ui:448
+msgctxt "MainWindow|"
+msgid "&Show Details"
+msgstr "&Afficher les Détails"
+
+#: ../ui/MainWindow.ui:84 ../ui/MainWindow.ui:176 ../ui/MainWindow.ui:262
+#: ../ui/MainWindow.ui:355 ../ui/MainWindow.ui:455
+msgctxt "MainWindow|"
+msgid "&Delete"
+msgstr "&Détruire"
+
+#: ../ui/MainWindow.ui:124
+msgctxt "MainWindow|"
+msgid "Certificate signing requests"
+msgstr "Requêtes de signature de certificat"
+
+#: ../ui/MainWindow.ui:148
+msgctxt "MainWindow|"
+msgid "&New Request"
+msgstr "&Nouvelle requête"
+
+#: ../widgets/MW_menu.cpp:146 ../ui/MainWindow.ui:216
+msgctxt "MainWindow|"
+msgid "Certificates"
+msgstr "Certificats"
+
+#: ../ui/MainWindow.ui:234
+msgctxt "MainWindow|"
+msgid "&New Certificate"
+msgstr "&Nouveau Certificat"
+
+#: ../ui/MainWindow.ui:269
+msgctxt "MainWindow|"
+msgid "Import &PKCS#12"
+msgstr "Importer en &PKCS#12"
+
+#: ../ui/MainWindow.ui:276
+msgctxt "MainWindow|"
+msgid "Import P&KCS#7"
+msgstr "Importer en P&KCS#7"
+
+#: ../ui/MainWindow.ui:283
+msgctxt "MainWindow|"
+msgid "Plain View"
+msgstr "Vue à plat"
+
+#: ../ui/MainWindow.ui:323
+msgctxt "MainWindow|"
+msgid "Templates"
+msgstr "Modèles"
+
+#: ../ui/MainWindow.ui:341
+msgctxt "MainWindow|"
+msgid "&New Template"
+msgstr "&Nouveau modèle"
+
+#: ../ui/MainWindow.ui:427
+msgctxt "MainWindow|"
+msgid "&New CRL"
+msgstr "&Nouvelle liste de révocation"
+
+#: ../ui/MainWindow.ui:348
+msgctxt "MainWindow|"
+msgid "Ch&ange Template"
+msgstr "&Modifier le Modèle"
+
+#: ../ui/MainWindow.ui:409
+msgctxt "MainWindow|"
+msgid "Revocation lists"
+msgstr "Listes de révocation"
+
+#: ../widgets/MainWindow.cpp:628
+msgctxt "MainWindow|"
+msgid ""
+"Using or exporting private keys will not be possible without providing the "
+"correct password"
+msgstr ""
+"Il sera impossible d'utiliser ou d'exporter des clés privées sans fournir le "
+"mot de passe correct."
+
+#: ../widgets/MainWindow.cpp:634
+#, qt-format
+msgctxt "MainWindow|"
+msgid ""
+"The currently used default hash '%1' is insecure. Please select at least "
+"'SHA 224' for security reasons."
+msgstr ""
+"L'algorithme de hachage '%1' sélectionné n'est pas sûr. SVP choisissez au "
+"moins 'SHA 224' pour raisons de sécurité."
+
+#: ../widgets/MW_menu.cpp:97
+msgctxt "MainWindow|"
+msgid "Recent DataBases"
+msgstr "Bases de données utilisées recemment"
+
+#: ../widgets/MW_help.cpp:25 ../widgets/MW_menu.cpp:40
+msgctxt "MainWindow|"
+msgid "System"
+msgstr "Système"
+
+#: ../widgets/MW_help.cpp:30
+msgctxt "MainWindow|"
+msgid "Croatian"
+msgstr "Croate"
+
+#: ../widgets/MW_help.cpp:33
+msgctxt "MainWindow|"
+msgid "English"
+msgstr "Anglais"
+
+#: ../widgets/MW_help.cpp:34
+msgctxt "MainWindow|"
+msgid "French"
+msgstr "Français"
+
+#: ../widgets/MW_help.cpp:36
+msgctxt "MainWindow|"
+msgid "German"
+msgstr "Allemand"
+
+#: ../widgets/MW_help.cpp:42
+msgctxt "MainWindow|"
+msgid "Japanese"
+msgstr "Japonais"
+
+#: ../widgets/MW_help.cpp:46
+msgctxt "MainWindow|"
+msgid "Korean"
+msgstr "Coréen"
+
+#: ../widgets/MW_help.cpp:52
+msgctxt "MainWindow|"
+msgid "Russian"
+msgstr "Russe"
+
+#: ../widgets/MW_help.cpp:53
+msgctxt "MainWindow|"
+msgid "Slovak"
+msgstr "Slovaque"
+
+#: ../widgets/MW_help.cpp:55
+msgctxt "MainWindow|"
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: ../widgets/MW_help.cpp:44
+msgctxt "MainWindow|"
+msgid "Persian"
+msgstr "Persan"
+
+#: ../widgets/MW_help.cpp:26
+msgctxt "MainWindow|"
+msgid "Bulgarian"
+msgstr "Bulgare"
+
+#: ../widgets/MW_help.cpp:48
+msgctxt "MainWindow|"
+msgid "Polish"
+msgstr "Polonais"
+
+#: ../widgets/MW_help.cpp:40
+msgctxt "MainWindow|"
+msgid "Italian"
+msgstr "Italien"
+
+#: ../widgets/MW_help.cpp:28
+msgctxt "MainWindow|"
+msgid "Chinese"
+msgstr "Chinois"
+
+#: ../widgets/MW_help.cpp:32
+msgctxt "MainWindow|"
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: ../widgets/MW_help.cpp:50
+msgctxt "MainWindow|"
+msgid "Portuguese in Brazil"
+msgstr "Portugais du Brésil"
+
+#: ../widgets/MW_help.cpp:38
+msgctxt "MainWindow|"
+msgid "Indonesian"
+msgstr "Indonésien"
+
+#: ../widgets/MW_help.cpp:57
+msgctxt "MainWindow|"
+msgid "Turkish"
+msgstr "Turc"
+
+#: ../widgets/MW_menu.cpp:85
+msgctxt "MainWindow|"
+msgid "Language"
+msgstr "Langue"
+
+#: ../widgets/MW_menu.cpp:103
+msgctxt "MainWindow|"
+msgid "&File"
+msgstr "&Fichier"
+
+#: ../widgets/MW_menu.cpp:113
+msgctxt "MainWindow|"
+msgid "Open Remote DataBase"
+msgstr "Ouvrir une base de données externe"
+
+#: ../widgets/MW_menu.cpp:117
+msgctxt "MainWindow|"
+msgid "Set as default DataBase"
+msgstr "Définir comme base de données par défaut"
+
+#: ../widgets/MW_menu.cpp:105
+msgctxt "MainWindow|"
+msgid "New DataBase"
+msgstr "Nouvelle base de données"
+
+#: ../widgets/MW_menu.cpp:109
+msgctxt "MainWindow|"
+msgid "Open DataBase"
+msgstr "Ouvrir une base de données"
+
+#: ../widgets/MW_menu.cpp:119
+msgctxt "MainWindow|"
+msgid "Close DataBase"
+msgstr "Fermer la base de données"
+
+#: ../widgets/MW_menu.cpp:124
+msgctxt "MainWindow|"
+msgid "Options"
+msgstr "Options"
+
+#: ../widgets/MW_menu.cpp:132
+msgctxt "MainWindow|"
+msgid "Exit"
+msgstr "Quitter"
+
+#: ../widgets/MW_menu.cpp:143
+msgctxt "MainWindow|"
+msgid "I&mport"
+msgstr "I&mporter"
+
+#: ../widgets/MW_menu.cpp:144
+msgctxt "MainWindow|"
+msgid "Keys"
+msgstr "Clés"
+
+#: ../widgets/MW_menu.cpp:145
+msgctxt "MainWindow|"
+msgid "Requests"
+msgstr "Requêtes"
+
+#: ../widgets/MW_menu.cpp:147
+msgctxt "MainWindow|"
+msgid "PKCS#12"
+msgstr "PKCS#12"
+
+#: ../widgets/MW_menu.cpp:148
+msgctxt "MainWindow|"
+msgid "PKCS#7"
+msgstr "PKCS#7"
+
+#: ../widgets/MW_menu.cpp:149
+msgctxt "MainWindow|"
+msgid "Template"
+msgstr "Modèle"
+
+#: ../widgets/MW_menu.cpp:150
+msgctxt "MainWindow|"
+msgid "Revocation list"
+msgstr "Liste de révocation"
+
+#: ../widgets/MW_menu.cpp:151
+msgctxt "MainWindow|"
+msgid "PEM file"
+msgstr "Fichier PEM"
+
+#: ../widgets/MW_menu.cpp:152
+msgctxt "MainWindow|"
+msgid "Paste PEM file"
+msgstr "Coller un fichier PEM"
+
+#: ../widgets/MW_menu.cpp:156
+msgctxt "MainWindow|"
+msgid "Token"
+msgstr "Jeton"
+
+#: ../widgets/MW_menu.cpp:173
+msgctxt "MainWindow|"
+msgid "Export Certificate &Index hierarchy"
+msgstr "Exporter la hiérarchie de l'index des certificats"
+
+#: ../widgets/MW_menu.cpp:191
+msgctxt "MainWindow|"
+msgid "Content"
+msgstr "Contenu"
+
+#: ../widgets/MW_menu.cpp:157
+msgctxt "MainWindow|"
+msgid "&Manage Security token"
+msgstr "&Gérer le jeton de sécurité"
+
+#: ../widgets/MW_menu.cpp:159
+msgctxt "MainWindow|"
+msgid "&Init Security token"
+msgstr "&Initialiser le jeton de sécurité"
+
+#: ../widgets/MW_menu.cpp:161
+msgctxt "MainWindow|"
+msgid "&Change PIN"
+msgstr "&Changer le NIP"
+
+#: ../widgets/MW_menu.cpp:163
+msgctxt "MainWindow|"
+msgid "Change &SO PIN"
+msgstr "Changer le P&UK"
+
+#: ../widgets/MW_menu.cpp:165
+msgctxt "MainWindow|"
+msgid "Init PIN"
+msgstr "Initialiser le NIP"
+
+#: ../widgets/MW_menu.cpp:168
+msgctxt "MainWindow|"
+msgid "Extra"
+msgstr "Extra"
+
+#: ../widgets/MW_menu.cpp:169
+msgctxt "MainWindow|"
+msgid "&Dump DataBase"
+msgstr "C&licher la base de données"
+
+#: ../widgets/MW_menu.cpp:171
+msgctxt "MainWindow|"
+msgid "&Export Certificate Index"
+msgstr "Exporter l'index des certificats"
+
+#: ../widgets/MW_menu.cpp:175
+msgctxt "MainWindow|"
+msgid "C&hange DataBase password"
+msgstr "C&hanger le mot de passe de la base de données"
+
+#: ../widgets/MW_menu.cpp:178
+msgctxt "MainWindow|"
+msgid "&Undelete items"
+msgstr "&Récupérer des objets détruits"
+
+#: ../widgets/MW_menu.cpp:181
+msgctxt "MainWindow|"
+msgid "Generate DH parameter"
+msgstr "Générer le paramètre DH"
+
+#: ../widgets/MW_menu.cpp:183
+msgctxt "MainWindow|"
+msgid "OID Resolver"
+msgstr "Convertisseur d'OID"
+
+#: ../widgets/MW_menu.cpp:190
+msgctxt "MainWindow|"
+msgid "&Help"
+msgstr "&Aide"
+
+#: ../widgets/MW_menu.cpp:193
+msgctxt "MainWindow|"
+msgid "About"
+msgstr "A propos"
+
+#: ../widgets/MainWindow.cpp:257
+msgctxt "MainWindow|"
+msgid "Import PEM data"
+msgstr "Importer les données PEM"
+
+#: ../widgets/MainWindow.cpp:286
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Please enter the original SO PIN (PUK) of the token '%1'"
+msgstr "SVP saisir le PUK original du jeton '%1'"
+
+#: ../widgets/MainWindow.cpp:117 ../widgets/MainWindow.cpp:792
+msgctxt "MainWindow|"
+msgid "Search"
+msgstr "Rechercher"
+
+#: ../widgets/MainWindow.cpp:292
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Please enter the new SO PIN (PUK) for the token '%1'"
+msgstr "SVP saisir le nouveau NIP SO (PUK) pour le jeton: '%1'"
+
+#: ../widgets/MainWindow.cpp:299
+#, qt-format
+msgctxt "MainWindow|"
+msgid "The new label of the token '%1'"
+msgstr "La nouvelle étiquette du jeton '%1'"
+
+#: ../widgets/MainWindow.cpp:416
+#, qt-format
+msgctxt "MainWindow|"
+msgid "The token '%1' did not contain any keys or certificates"
+msgstr "Le jeton '%1' ne contient aucune clé ni aucun certificat"
+
+#: ../widgets/MainWindow.cpp:420
+msgctxt "MainWindow|"
+msgid "Retry with PIN"
+msgstr "Réessayer avec le NIP"
+
+#: ../widgets/MainWindow.cpp:421
+msgctxt "MainWindow|"
+msgid "Retry with SO PIN"
+msgstr "Réessayer avec le NIP d'agende sécurité"
+
+#: ../widgets/MainWindow.cpp:484
+msgctxt "MainWindow|"
+msgid "Current Password"
+msgstr "Mot de passe actuel"
+
+#: ../widgets/MainWindow.cpp:485
+msgctxt "MainWindow|"
+msgid "Please enter the current database password"
+msgstr "SVP saisir le mot de passe de la base de données"
+
+#: ../widgets/MainWindow.cpp:495
+msgctxt "MainWindow|"
+msgid "The entered password is wrong"
+msgstr "Le mot de passe renseigné est inexact"
+
+#: ../widgets/MainWindow.cpp:500
+msgctxt "MainWindow|"
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: ../widgets/MainWindow.cpp:500
+msgctxt "MainWindow|"
+msgid ""
+"Please enter the new password to encrypt your private keys in the database-"
+"file"
+msgstr ""
+"SVP saisir le nouveau mot de passe pour chiffrer les clés privées dans le "
+"fichier de base de données"
+
+#: ../widgets/MainWindow.cpp:524
+msgctxt "MainWindow|"
+msgid "Transaction start failed"
+msgstr "Le démarrage de la transaction a échoué"
+
+#: ../widgets/MainWindow.cpp:611
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Database: %1"
+msgstr "Base de données: %1"
+
+#: ../widgets/MainWindow.cpp:639
+#, qt-format
+msgctxt "MainWindow|"
+msgid "The currently used PFX / PKCS#12 algorithm '%1' is insecure."
+msgstr "L'algorithme '%1' utilisé pour PFX / PKCS#12 est peu sûr."
+
+#: ../widgets/MainWindow.cpp:644
+msgctxt "MainWindow|"
+msgid "Change"
+msgstr "Changer"
+
+#: ../widgets/MainWindow.cpp:711
+msgctxt "MainWindow|"
+msgid "Certificate Index ( index.txt )"
+msgstr "Index des certificats ( index.txt )"
+
+#: ../widgets/MainWindow.cpp:712 ../widgets/MainWindow.cpp:768
+msgctxt "MainWindow|"
+msgid "All files ( * )"
+msgstr "Tous les fichiers ( * )"
+
+#: ../widgets/MainWindow.cpp:735
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Diffie-Hellman parameters saved as: %1"
+msgstr "Les paramètres Diffie-Hellman on été sauvegardés dans: %1"
+
+#: ../widgets/MainWindow.cpp:753
+msgctxt "MainWindow|"
+msgid ""
+"Diffie-Hellman parameters are needed for different applications, but not "
+"handled by XCA.\n"
+"Please enter the DH parameter bits"
+msgstr ""
+"Les paramètres de Diffie-Hellman sont nécessaires à certaines applications "
+"mais ne sont pas gérés par XCA.\n"
+"Saisir le nombre de bits du paramètre de Diffie-Hellman SVP"
+
+#: ../ui/NewCrl.ui:32
+msgctxt "NewCrl|"
+msgid "Last update"
+msgstr "Dernière mise-à-jour"
+
+#: ../ui/NewCrl.ui:46
+msgctxt "NewCrl|"
+msgid "Next update"
+msgstr "Prochaine mise-à-jour"
+
+#: ../ui/NewCrl.ui:70
+msgctxt "NewCrl|"
+msgid "Days"
+msgstr "Jours"
+
+#: ../ui/NewCrl.ui:75
+msgctxt "NewCrl|"
+msgid "Months"
+msgstr "Mois"
+
+#: ../ui/NewCrl.ui:80
+msgctxt "NewCrl|"
+msgid "Years"
+msgstr "Années"
+
+#: ../ui/NewCrl.ui:88
+msgctxt "NewCrl|"
+msgid "Midnight"
+msgstr "Minuit"
+
+#: ../ui/NewCrl.ui:95
+msgctxt "NewCrl|"
+msgid "Local time"
+msgstr "Heure locale"
+
+#: ../ui/NewCrl.ui:102
+msgctxt "NewCrl|"
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../ui/NewCrl.ui:128
+msgctxt "NewCrl|"
+msgid "Options"
+msgstr "Options"
+
+#: ../ui/NewCrl.ui:172
+msgctxt "NewCrl|"
+msgid "CRL number"
+msgstr "Numéro de la liste de révocation"
+
+#: ../ui/NewCrl.ui:144
+msgctxt "NewCrl|"
+msgid "Subject alternative name"
+msgstr "Nom alternatif du sujet"
+
+#: ../ui/NewCrl.ui:199
+msgctxt "NewCrl|"
+msgid "Revocation reasons"
+msgstr "Raisons de la révocation"
+
+#: ../ui/NewCrl.ui:158
+msgctxt "NewCrl|"
+msgid "Authority key identifier"
+msgstr "Identifiant de clé de l'autorité"
+
+#: ../ui/NewCrl.ui:134
+msgctxt "NewCrl|"
+msgid "Hash algorithm"
+msgstr "Algorithme de hachage"
+
+#: ../widgets/NewCrl.cpp:78
+msgctxt "NewCrl|"
+msgid "Create CRL"
+msgstr "Créer une liste de révocation"
+
+#: ../ui/NewKey.ui:86
+msgctxt "NewKey|"
+msgid "Please give a name to the new key and select the desired keysize"
+msgstr ""
+"SVP donner un nom à la nouvelle clé et sélectionner la taille de clé désirée"
+
+#: ../ui/NewKey.ui:96
+msgctxt "NewKey|"
+msgid "Key properties"
+msgstr "Propriétés de la clé"
+
+#: ../ui/NewKey.ui:102
+msgctxt "NewKey|"
+msgid "Name"
+msgstr "Nom"
+
+#: ../ui/NewKey.ui:121
+msgctxt "NewKey|"
+msgid "The internal name of the new key"
+msgstr "Le nom interne de la nouvelle clé"
+
+#: ../ui/NewKey.ui:151
+msgctxt "NewKey|"
+msgid "Curve name"
+msgstr "Nom de la courbe"
+
+#: ../ui/NewKey.ui:171
+msgctxt "NewKey|"
+msgid "Usually at least 2048 bit keys are recommended"
+msgstr "Généralement une clé de 2048 bits est recommandée"
+
+#: ../ui/NewKey.ui:39 ../ui/NewKey.ui:124
+msgctxt "NewKey|"
+msgid "New Key"
+msgstr "Nouvelle Clé"
+
+#: ../ui/NewKey.ui:158
+msgctxt "NewKey|"
+msgid "Keysize"
+msgstr "Taille de la clé"
+
+#: ../ui/NewKey.ui:178
+msgctxt "NewKey|"
+msgid "Keytype"
+msgstr "Type de clé"
+
+#: ../ui/NewKey.ui:188
+msgctxt "NewKey|"
+msgid "Remember as default"
+msgstr "Enregistrer comme valeur par défaut"
+
+#: ../widgets/NewKey.cpp:135
+msgctxt "NewKey|"
+msgid "Create"
+msgstr "Créer"
+
+#: ../ui/NewX509.ui:75
+msgctxt "NewX509|"
+msgid "Source"
+msgstr "Source"
+
+#: ../ui/NewX509.ui:97
+msgctxt "NewX509|"
+msgid "Signing request"
+msgstr "Requête de signature"
+
+#: ../ui/NewX509.ui:121
+msgctxt "NewX509|"
+msgid "Show request"
+msgstr "Afficher la requête"
+
+#: ../ui/NewX509.ui:128
+msgctxt "NewX509|"
+msgid "Sign this Certificate signing &request"
+msgstr "Signer cette &requête"
+
+#: ../ui/NewX509.ui:135
+msgctxt "NewX509|"
+msgid "Copy extensions from the request"
+msgstr "Copier les extensions de la requête"
+
+#: ../ui/NewX509.ui:145
+msgctxt "NewX509|"
+msgid "Modify subject of the request"
+msgstr "Modifier le sujet de la requête"
+
+#: ../ui/NewX509.ui:177
+msgctxt "NewX509|"
+msgid "Signing"
+msgstr "Signer"
+
+#: ../ui/NewX509.ui:185
+msgctxt "NewX509|"
+msgid "Create a &self signed certificate"
+msgstr "Créer un certificat auto-&signé"
+
+#: ../ui/NewX509.ui:199
+msgctxt "NewX509|"
+msgid "Use &this Certificate for signing"
+msgstr "Utiliser &ce certificat pour signer"
+
+#: ../ui/NewX509.ui:206
+msgctxt "NewX509|"
+msgid "All certificates in your database that can create valid signatures"
+msgstr ""
+"Tous les certificats dans la base de données qui peuvent produire des "
+"signatures valables"
+
+#: ../ui/NewX509.ui:233
+msgctxt "NewX509|"
+msgid "Signature algorithm"
+msgstr "Algorithme de signature"
+
+#: ../ui/NewX509.ui:261
+msgctxt "NewX509|"
+msgid "Template for the new certificate"
+msgstr "Modèle pour le nouveau certificat"
+
+#: ../ui/NewX509.ui:273
+msgctxt "NewX509|"
+msgid "All available templates"
+msgstr "Tous les modèles disponibles"
+
+#: ../ui/NewX509.ui:295
+msgctxt "NewX509|"
+msgid "Apply extensions"
+msgstr "Appliquer les extensions"
+
+#: ../ui/NewX509.ui:302
+msgctxt "NewX509|"
+msgid "Apply subject"
+msgstr "Appliquer le sujet"
+
+#: ../ui/NewX509.ui:315
+msgctxt "NewX509|"
+msgid "Apply all"
+msgstr "Appliquer tout"
+
+#: ../widgets/NewX509.cpp:611 ../ui/NewX509.ui:344
+msgctxt "NewX509|"
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../ui/NewX509.ui:352
+msgctxt "NewX509|"
+msgid "Internal Name"
+msgstr "Nom interne"
+
+#: ../ui/NewX509.ui:368
+msgctxt "NewX509|"
+msgid "Distinguished name"
+msgstr "Nom distinctif"
+
+#: ../ui/NewX509.ui:394
+msgctxt "NewX509|"
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../ui/NewX509.ui:401
+msgctxt "NewX509|"
+msgid "Delete"
+msgstr "Enlever"
+
+#: ../ui/NewX509.ui:438
+msgctxt "NewX509|"
+msgid "Private key"
+msgstr "Clé privée"
+
+#: ../ui/NewX509.ui:450
+msgctxt "NewX509|"
+msgid "This list only contains unused keys"
+msgstr "Cette liste ne contient que les clés inutilisées"
+
+#: ../ui/NewX509.ui:457
+msgctxt "NewX509|"
+msgid "Used keys too"
+msgstr "Inclure les clés utilisées"
+
+#: ../ui/NewX509.ui:464
+msgctxt "NewX509|"
+msgid "&Generate a new key"
+msgstr "&Générer une nouvelle clé"
+
+#: ../ui/NewX509.ui:475
+msgctxt "NewX509|"
+msgid "Extensions"
+msgstr "Extensions"
+
+#: ../ui/NewX509.ui:486
+msgctxt "NewX509|"
+msgid "Type"
+msgstr "Type"
+
+#: ../ui/NewX509.ui:493
+msgctxt "NewX509|"
+msgid "If this will become a CA certificate or not"
+msgstr "Si un certificat d'autorité (CA) est en train d'être créé ou non"
+
+#: ../ui/NewX509.ui:497
+msgctxt "NewX509|"
+msgid "Not defined"
+msgstr "Non défini"
+
+#: ../ui/NewX509.ui:502
+msgctxt "NewX509|"
+msgid "Certification Authority"
+msgstr "Autorité de Certification"
+
+#: ../ui/NewX509.ui:507
+msgctxt "NewX509|"
+msgid "End Entity"
+msgstr "Entité Finale"
+
+#: ../ui/NewX509.ui:515
+msgctxt "NewX509|"
+msgid "Path length"
+msgstr "Distance aux entités finales"
+
+#: ../ui/NewX509.ui:522
+msgctxt "NewX509|"
+msgid "How much CAs may be below this."
+msgstr ""
+"Combien de niveau de sous-CA peuvent apparaître jusqu'à une entité finale."
+
+#: ../ui/NewX509.ui:529
+msgctxt "NewX509|"
+msgid "The basic constraints should always be critical"
+msgstr "Les contraintes basiques doivent toujours être critiques"
+
+#: ../ui/NewX509.ui:542
+msgctxt "NewX509|"
+msgid "Key identifier"
+msgstr "Identifiant de clé"
+
+#: ../ui/NewX509.ui:563
+msgctxt "NewX509|"
+msgid "Creates a hash of the key following the PKIX guidelines"
+msgstr "Crée un hachage de la clé conformément aux directives PKIX"
+
+#: ../ui/NewX509.ui:573
+msgctxt "NewX509|"
+msgid "Copy the Subject Key Identifier from the issuer"
+msgstr "Copie l'identifiant de clé du sujet du signataire"
+
+#: ../ui/NewX509.ui:619
+msgctxt "NewX509|"
+msgid "Validity"
+msgstr "Validité"
+
+#: ../ui/NewX509.ui:625
+msgctxt "NewX509|"
+msgid "Not before"
+msgstr "Pas avant"
+
+#: ../ui/NewX509.ui:639
+msgctxt "NewX509|"
+msgid "Not after"
+msgstr "Pas après"
+
+#: ../ui/NewX509.ui:656
+msgctxt "NewX509|"
+msgid "Time range"
+msgstr "Intervalle de temps"
+
+#: ../ui/NewX509.ui:666
+msgctxt "NewX509|"
+msgid "Days"
+msgstr "Jours"
+
+#: ../ui/NewX509.ui:671
+msgctxt "NewX509|"
+msgid "Months"
+msgstr "Mois"
+
+#: ../ui/NewX509.ui:676
+msgctxt "NewX509|"
+msgid "Years"
+msgstr "Années"
+
+#: ../ui/NewX509.ui:704
+msgctxt "NewX509|"
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../ui/NewX509.ui:711
+msgctxt "NewX509|"
+msgid "Set the time to 00:00:00 and 23:59:59 respectively"
+msgstr "Définir les heures à 00:00:00 et 23:59:59 respectivement"
+
+#: ../ui/NewX509.ui:714
+msgctxt "NewX509|"
+msgid "Midnight"
+msgstr "Minuit"
+
+#: ../ui/NewX509.ui:684
+msgctxt "NewX509|"
+msgid "Local time"
+msgstr "Heure locale"
+
+#: ../ui/NewX509.ui:691
+msgctxt "NewX509|"
+msgid "No well-defined expiration"
+msgstr "Pas de date d'expiration précise"
+
+#: ../ui/NewX509.ui:768 ../ui/NewX509.ui:811 ../ui/NewX509.ui:834
+#: ../ui/NewX509.ui:863
+msgctxt "NewX509|"
+msgid "DNS: IP: URI: email: RID:"
+msgstr "DNS: IP: URI: email: RID:"
+
+#: ../widgets/NewX509.cpp:1029 ../ui/NewX509.ui:775 ../ui/NewX509.ui:801
+#: ../ui/NewX509.ui:827 ../ui/NewX509.ui:870 ../ui/NewX509.ui:896
+msgctxt "NewX509|"
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../ui/NewX509.ui:922
+msgctxt "NewX509|"
+msgid "URI:"
+msgstr "URI:"
+
+#: ../ui/NewX509.ui:932
+msgctxt "NewX509|"
+msgid "Key usage"
+msgstr "Usage de la clé"
+
+#: ../ui/NewX509.ui:1070
+msgctxt "NewX509|"
+msgid "Netscape"
+msgstr "Netscape"
+
+#: ../ui/NewX509.ui:1228
+msgctxt "NewX509|"
+msgid "Advanced"
+msgstr "Avancé"
+
+#: ../widgets/NewX509.cpp:1039 ../ui/NewX509.ui:1252
+msgctxt "NewX509|"
+msgid "Validate"
+msgstr "Valider"
+
+#: ../ui/NewX509.ui:1275
+msgctxt "NewX509|"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../ui/NewX509.ui:359
+msgctxt "NewX509|"
+msgid ""
+"This name is only used internally and does not appear in the resulting "
+"certificate"
+msgstr ""
+"Ce nom est seulement utilisé par xca et n'apparaît pas dans le certificat "
+"exporté"
+
+#: ../widgets/NewX509.cpp:276
+msgctxt "NewX509|"
+msgid "Critical"
+msgstr "Critique"
+
+#: ../widgets/NewX509.cpp:317
+msgctxt "NewX509|"
+msgid "Create Certificate signing request"
+msgstr "Créer une requête de signature de certificat"
+
+#: ../widgets/NewX509.cpp:343
+#, qt-format
+msgctxt "NewX509|"
+msgid "minimum size: %1"
+msgstr "taille minimale: %1"
+
+#: ../widgets/NewX509.cpp:345
+#, qt-format
+msgctxt "NewX509|"
+msgid "maximum size: %1"
+msgstr "taille maximale: %1"
+
+#: ../widgets/NewX509.cpp:347
+msgctxt "NewX509|"
+msgid "only a-z A-Z 0-9 '()+,-./:=?"
+msgstr "seulement a-z A-Z 0-9 '()+,-./:=?"
+
+#: ../widgets/NewX509.cpp:351
+msgctxt "NewX509|"
+msgid "only 7-bit clean characters"
+msgstr "seulement des caractères 7-bit ASCII imprimables"
+
+#: ../widgets/NewX509.cpp:376
+msgctxt "NewX509|"
+msgid "Edit XCA template"
+msgstr "Editer un modèle XCA"
+
+#: ../widgets/NewX509.cpp:391
+msgctxt "NewX509|"
+msgid "Create x509 Certificate"
+msgstr "Créer un certificat x509"
+
+#: ../widgets/NewX509.cpp:779
+#, qt-format
+msgctxt "NewX509|"
+msgid "Template '%1' applied"
+msgstr "Le modèle '%1' a été appliqué"
+
+#: ../widgets/NewX509.cpp:786
+#, qt-format
+msgctxt "NewX509|"
+msgid "Subject applied from template '%1'"
+msgstr "Sujet extrait du modèle '%1'"
+
+#: ../widgets/NewX509.cpp:794
+#, qt-format
+msgctxt "NewX509|"
+msgid "Extensions applied from template '%1'"
+msgstr "Les extensions du modéle '%1' ont été appliquées"
+
+#: ../widgets/NewX509.cpp:809
+#, qt-format
+msgctxt "NewX509|"
+msgid "New key '%1' created"
+msgstr "La nouvelle clé '%1' a été créée"
+
+#: ../widgets/NewX509.cpp:1061
+msgctxt "NewX509|"
+msgid "Other Tabs"
+msgstr "Autres Onglets"
+
+#: ../widgets/NewX509.cpp:1077
+msgctxt "NewX509|"
+msgid "Advanced Tab"
+msgstr "Onglet Avancé"
+
+#: ../widgets/NewX509.cpp:1084
+msgctxt "NewX509|"
+msgid "Errors"
+msgstr "Erreurs"
+
+#: ../widgets/NewX509.cpp:1103
+msgctxt "NewX509|"
+msgid "From PKCS#10 request"
+msgstr "A partir d'une requête en PKCS#10"
+
+#: ../widgets/NewX509.cpp:1113
+msgctxt "NewX509|"
+msgid "Error"
+msgstr "Erreur"
+
+#: ../widgets/NewX509.cpp:1113
+msgctxt "NewX509|"
+msgid "duplicate extensions"
+msgstr "Extensions à double"
+
+#: ../widgets/NewX509.cpp:1122
+msgctxt "NewX509|"
+msgid "The Name Constraints are invalid"
+msgstr "Les contraintes sur le nom sont invalides"
+
+#: ../widgets/NewX509.cpp:1124
+msgctxt "NewX509|"
+msgid "The Subject Alternative Name is invalid"
+msgstr "Le nom alternatif du sujet est invalide"
+
+#: ../widgets/NewX509.cpp:1126
+msgctxt "NewX509|"
+msgid "The Issuer Alternative Name is invalid"
+msgstr "Le nom alternatif de l'émetteur est invalide"
+
+#: ../widgets/NewX509.cpp:1128
+msgctxt "NewX509|"
+msgid "The CRL Distribution Point is invalid"
+msgstr "Le point de distribution de la CRL est invalide"
+
+#: ../widgets/NewX509.cpp:1130
+msgctxt "NewX509|"
+msgid "The Authority Information Access is invalid"
+msgstr "L'accès à l'information de l'autorité est invalide"
+
+#: ../widgets/NewX509.cpp:1241 ../widgets/NewX509.cpp:1254
+#: ../widgets/NewX509.cpp:1273 ../widgets/NewX509.cpp:1285
+#: ../widgets/NewX509.cpp:1301 ../widgets/NewX509.cpp:1315
+#: ../widgets/NewX509.cpp:1349 ../widgets/NewX509.cpp:1368
+#: ../widgets/NewX509.cpp:1391 ../widgets/NewX509.cpp:1414
+#: ../widgets/NewX509.cpp:1449 ../widgets/NewX509.cpp:1469
+#: ../widgets/NewX509.cpp:1502
+msgctxt "NewX509|"
+msgid "Abort rollout"
+msgstr "Interrompre le déploiement"
+
+#: ../widgets/NewX509.cpp:1250
+msgctxt "NewX509|"
+msgid "The following length restrictions of RFC3280 are violated:"
+msgstr ""
+"Pour être en conformité avec la RFC3280, les règles de restriction de "
+"longueur suivantes ne sont pas respectées:"
+
+#: ../widgets/NewX509.cpp:1253 ../widgets/NewX509.cpp:1314
+msgctxt "NewX509|"
+msgid "Edit subject"
+msgstr "Modifier le sujet"
+
+#: ../widgets/NewX509.cpp:1255 ../widgets/NewX509.cpp:1316
+#: ../widgets/NewX509.cpp:1369 ../widgets/NewX509.cpp:1392
+#: ../widgets/NewX509.cpp:1415 ../widgets/NewX509.cpp:1450
+#: ../widgets/NewX509.cpp:1470 ../widgets/NewX509.cpp:1503
+msgctxt "NewX509|"
+msgid "Continue rollout"
+msgstr "Continuer le déploiement"
+
+#: ../widgets/NewX509.cpp:1271
+msgctxt "NewX509|"
+msgid ""
+"The verification of the Certificate request failed.\n"
+"The rollout should be aborted."
+msgstr ""
+"La vérification de la requête de signature à échoué.\n"
+"Le déploiement devrait être interrompu."
+
+#: ../widgets/NewX509.cpp:1272
+msgctxt "NewX509|"
+msgid "Continue anyway"
+msgstr "Continuer quand-même"
+
+#: ../widgets/NewX509.cpp:1283
+msgctxt "NewX509|"
+msgid ""
+"The internal name and the common name are empty.\n"
+"Please set at least the internal name."
+msgstr ""
+"Le nom interne et le nom commun sont vides.\n"
+"SVP saisir au moins le nom interne."
+
+#: ../widgets/NewX509.cpp:1284
+msgctxt "NewX509|"
+msgid "Edit name"
+msgstr "Modifier le nom"
+
+#: ../widgets/NewX509.cpp:1299
+msgctxt "NewX509|"
+msgid "There is no Key selected for signing."
+msgstr "Aucune clé n'est sélectionnée pour la signature."
+
+#: ../widgets/NewX509.cpp:1300
+msgctxt "NewX509|"
+msgid "Select key"
+msgstr "Sélectionner la clé"
+
+#: ../widgets/NewX509.cpp:1312
+#, qt-format
+msgctxt "NewX509|"
+msgid ""
+"The following distinguished name entries are empty:\n"
+"%1\n"
+"though you have declared them as mandatory in the options menu."
+msgstr ""
+"Les indications de nom distinctif suivantes sont vides:\n"
+"%1\n"
+"bien que vous les avez déclarées comme obligatoires dans le menu des options."
+
+#: ../widgets/NewX509.cpp:1346
+msgctxt "NewX509|"
+msgid "The key you selected for signing is not a private one."
+msgstr "La clé sélectionnée pour la signature n'est pas une clé privée."
+
+#: ../widgets/NewX509.cpp:1347
+msgctxt "NewX509|"
+msgid "Select other signer"
+msgstr "Sélectionner un autre signataire"
+
+#: ../widgets/NewX509.cpp:1347
+msgctxt "NewX509|"
+msgid "Select other key"
+msgstr "Sélectionner une autre clé"
+
+#: ../widgets/NewX509.cpp:1357
+#, qt-format
+msgctxt "NewX509|"
+msgid ""
+"The currently selected hash algorithm '%1' is insecure and should not be "
+"used."
+msgstr ""
+"L'algorithme de hachage sélectionné '%1' est peu sûr et ne devrait pas être "
+"utilisé."
+
+#: ../widgets/NewX509.cpp:1358
+msgctxt "NewX509|"
+msgid "Select other algorithm"
+msgstr "Sélectionner un autre algorithme"
+
+#: ../widgets/NewX509.cpp:1359
+msgctxt "NewX509|"
+msgid "Use algorithm anyway"
+msgstr "Utiliser quand même cet algorithme"
+
+#: ../widgets/NewX509.cpp:1365
+msgctxt "NewX509|"
+msgid ""
+"The certificate will be earlier valid than the signer. This is probably not "
+"what you want."
+msgstr ""
+"Le certificat serait valide avant son signataire. Ce n'est probablement pas "
+"ce qui est désiré."
+
+#: ../widgets/NewX509.cpp:1367 ../widgets/NewX509.cpp:1390
+#: ../widgets/NewX509.cpp:1413
+msgctxt "NewX509|"
+msgid "Edit dates"
+msgstr "Modifier les limites de validité"
+
+#: ../widgets/NewX509.cpp:1370 ../widgets/NewX509.cpp:1393
+msgctxt "NewX509|"
+msgid "Adjust date and continue"
+msgstr "Ajuster la date et continuer"
+
+#: ../widgets/NewX509.cpp:1388
+msgctxt "NewX509|"
+msgid ""
+"The certificate will be longer valid than the signer. This is probably not "
+"what you want."
+msgstr ""
+"Le certificat serait valide plus longtemps que son signataire. Ce n'est "
+"probablement pas ce qui est désiré."
+
+#: ../widgets/NewX509.cpp:1411
+msgctxt "NewX509|"
+msgid ""
+"The certificate will be out of date before it becomes valid. You most "
+"probably mixed up both dates."
+msgstr ""
+"Le certificat serait échu avant de devenir actif. Vous avez probablement "
+"interverti les deux dates."
+
+#: ../widgets/NewX509.cpp:1433
+msgctxt "NewX509|"
+msgid ""
+"The certificate contains invalid or duplicate extensions. Check the "
+"validation on the advanced tab."
+msgstr ""
+"Le certificat contient des extensions dupliquées ou invalides. Vérifier la "
+"validité sur l'onglet \"Avancé\"."
+
+#: ../widgets/NewX509.cpp:1437
+msgctxt "NewX509|"
+msgid ""
+"The certificate contains no extensions. You may apply the extensions of one "
+"of the templates to define the purpose of the certificate."
+msgstr ""
+"Le certificat ne contient aucune extension. Vous pouvez appliquer des "
+"extensions à partir de l'un des modèles pour définir l'usage du certificat"
+
+#: ../widgets/NewX509.cpp:1441
+msgctxt "NewX509|"
+msgid "The certificate contains invalid extensions."
+msgstr "Le certificat contient des extensions invalides."
+
+#: ../widgets/NewX509.cpp:1448 ../widgets/NewX509.cpp:1468
+#: ../widgets/NewX509.cpp:1501
+msgctxt "NewX509|"
+msgid "Edit extensions"
+msgstr "Modifier les extensions"
+
+#: ../widgets/NewX509.cpp:1467
+msgctxt "NewX509|"
+msgid ""
+"The subject alternative name shall contain a copy of the common name. "
+"However, the common name is empty."
+msgstr ""
+"Le nom alternatif du sujet devrait contenir une copie du nom commun. "
+"Cependant ce dernier est vide."
+
+#: ../widgets/NewX509.cpp:1498
+#, qt-format
+msgctxt "NewX509|"
+msgid "A name constraint of the issuer '%1' is violated: %2"
+msgstr "Une contrainte du signataire '%1' sur le nom n'est pas respectée: %2"
+
+#: ../widgets/NewX509_ext.cpp:173
+#, qt-format
+msgctxt "NewX509|"
+msgid "Configfile error on line %1\n"
+msgstr "Erreur dans le fichier de configuration à la ligne %1\n"
+
+#: ../ui/OidResolver.ui:28
+msgctxt "OidResolver|"
+msgid "OID Resolver"
+msgstr "Convertisseur d'OID"
+
+#: ../ui/OidResolver.ui:38
+msgctxt "OidResolver|"
+msgid "Enter the OID, the Nid, or one of the textual representations"
+msgstr "Saisir l'OID, le Nid ou une des représentations symboliques"
+
+#: ../ui/OidResolver.ui:47
+msgctxt "OidResolver|"
+msgid "Search"
+msgstr "Rechercher"
+
+#: ../ui/OidResolver.ui:74
+msgctxt "OidResolver|"
+msgid "OID"
+msgstr "OID"
+
+#: ../ui/OidResolver.ui:119
+msgctxt "OidResolver|"
+msgid "Long name"
+msgstr "Nom complet"
+
+#: ../ui/OidResolver.ui:145 ../ui/OidResolver.ui:167
+msgctxt "OidResolver|"
+msgid "OpenSSL internal ID"
+msgstr "Identification interne à OpenSSL"
+
+#: ../ui/OidResolver.ui:148
+msgctxt "OidResolver|"
+msgid "Nid"
+msgstr "Nid"
+
+#: ../ui/OidResolver.ui:177
+msgctxt "OidResolver|"
+msgid "Short name"
+msgstr "Nom abrégé"
+
+#: ../ui/OpenDb.ui:36
+msgctxt "OpenDb|"
+msgid "Open remote database"
+msgstr "Ouvrir une base de données externe"
+
+#: ../ui/OpenDb.ui:98
+msgctxt "OpenDb|"
+msgid "Database type"
+msgstr "Type de base de données"
+
+#: ../ui/OpenDb.ui:108
+msgctxt "OpenDb|"
+msgid "Hostname"
+msgstr "Nom du serveur"
+
+#: ../ui/OpenDb.ui:118
+msgctxt "OpenDb|"
+msgid "Username"
+msgstr "Nom de l'utilisateur"
+
+#: ../ui/OpenDb.ui:128
+msgctxt "OpenDb|"
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../widgets/OpenDb.cpp:57 ../ui/OpenDb.ui:142
+msgctxt "OpenDb|"
+msgid "Database name"
+msgstr "Nom de la base de données"
+
+#: ../ui/OpenDb.ui:152
+msgctxt "OpenDb|"
+msgid "Table prefix"
+msgstr "Préfixe du nom des tables"
+
+#: ../widgets/OpenDb.cpp:128
+msgctxt "OpenDb|"
+msgid ""
+"No SqLite3 driver available. Please install the qt-sqlite package of your "
+"distribution"
+msgstr ""
+"Le pilote SqLite3 n'est pas disponible. SVP installez le paquetage qt-sqlite "
+"de votre distribution"
+
+#: ../ui/Options.ui:28
+msgctxt "Options|"
+msgid "XCA Options"
+msgstr "Options de XCA"
+
+#: ../ui/Options.ui:42
+msgctxt "Options|"
+msgid "Settings"
+msgstr "Réglages"
+
+#: ../ui/Options.ui:50
+msgctxt "Options|"
+msgid "Default hash algorithm"
+msgstr "Algorithme de hachage par défaut"
+
+#: ../ui/Options.ui:78
+msgctxt "Options|"
+msgid "String types"
+msgstr "Types de chaînes"
+
+#: ../ui/Options.ui:90
+msgctxt "Options|"
+msgid "Suppress success messages"
+msgstr "Supprimer les messages en cas de succès"
+
+#: ../ui/Options.ui:123
+msgctxt "Options|"
+msgid "Don't colorize expired certificates"
+msgstr "Ne pas coloriser les certificats expirés"
+
+#: ../ui/Options.ui:104
+#, qt-format
+msgctxt "Options|"
+msgid "Translate established x509 terms (%1 -> %2)"
+msgstr "Traduire les termes standards définis par x509 (%1 -> %2)"
+
+#: ../ui/Options.ui:111
+msgctxt "Options|"
+msgid ""
+"The hashing functionality of the token is not used by XCA.\n"
+"It may however honor a restricted hash-set propagated by the token.\n"
+"Especially EC and DSA are only defined with SHA1 in the PKCS#11 "
+"specification."
+msgstr ""
+"La fonctionalité de hachage du jeton n'est pas utilisée par XCA.\n"
+"Ce dernier peut néanmoins se limiter à un jeu restreint de fonctions de "
+"hachage reconnus par le jeton.\n"
+"En particulier, EC et DSA ne sont définis qu'avec SHA1 dans la spécification "
+"PKCS#11."
+
+#: ../ui/Options.ui:116
+msgctxt "Options|"
+msgid "Only use hashes supported by the token when signing with a token key"
+msgstr ""
+"N'utiliser que des fonction de hachage supportées par le jeton lors d'une "
+"signature avec une clé du jeton"
+
+#: ../ui/Options.ui:97
+msgctxt "Options|"
+msgid "Disable legacy Netscape extensions"
+msgstr "Désactiver les extensions Netscape désuètes"
+
+#: ../ui/Options.ui:64
+msgctxt "Options|"
+msgid "PKCS12 encryption algorithm"
+msgstr "Algorithme de chiffrement de PKCS12"
+
+#: ../ui/Options.ui:141
+msgctxt "Options|"
+msgid "Certificate expiry warning threshold"
+msgstr "Seuil d'avertissement de l'expiration d'un certificat"
+
+#: ../ui/Options.ui:160
+msgctxt "Options|"
+msgid "Send vCalendar expiry reminder"
+msgstr "Envoyer un message vCalendar de rappel d'expiration"
+
+#: ../ui/Options.ui:171
+msgctxt "Options|"
+msgid "Serial number length"
+msgstr "Longueur du numéro de série"
+
+#: ../ui/Options.ui:178
+msgctxt "Options|"
+msgid " bit"
+msgstr " bits"
+
+#: ../ui/Options.ui:213
+msgctxt "Options|"
+msgid "Distinguished name"
+msgstr "Nom distinctif"
+
+#: ../ui/Options.ui:219
+msgctxt "Options|"
+msgid "Mandatory subject entries"
+msgstr "Inscriptions du sujet obligatoires"
+
+#: ../ui/Options.ui:237 ../ui/Options.ui:298 ../ui/Options.ui:380
+msgctxt "Options|"
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../ui/Options.ui:244 ../ui/Options.ui:305
+msgctxt "Options|"
+msgid "Delete"
+msgstr "Enlever"
+
+#: ../ui/Options.ui:269
+msgctxt "Options|"
+msgid "Explicit subject entries"
+msgstr "Inscriptions explicites du sujet"
+
+#: ../ui/Options.ui:287
+msgctxt "Options|"
+msgid "Dynamically arrange explicit subject entries"
+msgstr "Arranger dynamiquement les éléments explicites du sujet"
+
+#: ../ui/Options.ui:312
+msgctxt "Options|"
+msgid "Default"
+msgstr "Défaut"
+
+#: ../ui/Options.ui:338
+msgctxt "Options|"
+msgid "PKCS#11 provider"
+msgstr "Fournisseur PKCS#11"
+
+#: ../ui/Options.ui:393
+msgctxt "Options|"
+msgid "Remove"
+msgstr "Enlever"
+
+#: ../ui/Options.ui:400
+msgctxt "Options|"
+msgid "Search"
+msgstr "Rechercher"
+
+#: ../widgets/Options.cpp:36
+msgctxt "Options|"
+msgid "Printable string or UTF8 (default)"
+msgstr "Chaîne imprimable ou UTF8 (défaut)"
+
+#: ../widgets/Options.cpp:37
+msgctxt "Options|"
+msgid "PKIX recommendation in RFC2459"
+msgstr "La recommandation PKIX est dans la RFC2459"
+
+#: ../widgets/Options.cpp:38
+msgctxt "Options|"
+msgid "No BMP strings, only printable and T61"
+msgstr "Pas de chaîne BMP, seulement imprimable et T61"
+
+#: ../widgets/Options.cpp:39
+msgctxt "Options|"
+msgid "UTF8 strings only (RFC2459)"
+msgstr "Chaînes UTF8 uniquement (RFC2459)"
+
+#: ../widgets/Options.cpp:40
+msgctxt "Options|"
+msgid "All strings"
+msgstr "Toutes les chaînes"
+
+#: ../widgets/Options.cpp:62
+msgctxt "Options|"
+msgid "Days"
+msgstr "Jours"
+
+#: ../widgets/Options.cpp:62
+msgctxt "Options|"
+msgid "Weeks"
+msgstr "Semaines"
+
+#: ../ui/PwDialog.ui:118
+msgctxt "PwDialog|"
+msgid ""
+"The password is parsed as 2-digit hex code. It must have an even number of "
+"digits (0-9 and a-f)"
+msgstr ""
+"Le mot de passe doit être exprimé sous forme d'une suite de chiffres "
+"hexadécimaux. Il doit contenir un nombre pair de chiffres (0-9 et a-f)"
+
+#: ../ui/PwDialog.ui:121
+msgctxt "PwDialog|"
+msgid "Take as HEX string"
+msgstr "Exprimé en hexadécimal"
+
+#: ../widgets/PwDialog.cpp:72
+#, qt-format
+msgctxt "PwDialog|"
+msgid "Repeat %1"
+msgstr "Répéter %1"
+
+#: ../widgets/PwDialog.cpp:85
+#, qt-format
+msgctxt "PwDialog|"
+msgid "%1 mismatch"
+msgstr "%1 ne correspond pas"
+
+#: ../widgets/PwDialog.cpp:92
+msgctxt "PwDialog|"
+msgid ""
+"Hex password must only contain the characters '0' - '9' and 'a' - 'f' and it "
+"must consist of an even number of characters"
+msgstr ""
+"Un mot de passe hexadécimal peut seulement contenir les caractères '0' à '9' "
+"et 'a' à 'f' et il doit consister en un nombre pair de caractères"
+
+#: ../widgets/PwDialog.cpp:121
+msgctxt "PwDialog|"
+msgid "Exit"
+msgstr "Quitter"
+
+#: ../lib/asn1time.cpp:142
+msgctxt "QObject|"
+msgid "Undefined"
+msgstr "Indéfini"
+
+#: ../lib/asn1time.cpp:144
+msgctxt "QObject|"
+msgid "Broken / Invalid"
+msgstr "Invalide"
+
+#: ../lib/asn1time.cpp:190
+#, qt-format
+msgctxt "QObject|"
+msgid "in %1 seconds"
+msgstr "dans %1 secondes"
+
+#: ../lib/asn1time.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 seconds ago"
+msgstr "il y a %1 secondes"
+
+#: ../lib/asn1time.cpp:194
+#, qt-format
+msgctxt "QObject|"
+msgid "in %1 minutes"
+msgstr "dans %1 minutes"
+
+#: ../lib/asn1time.cpp:195
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 minutes ago"
+msgstr "il y a %1 minutes"
+
+#: ../lib/asn1time.cpp:197
+msgctxt "QObject|"
+msgid "Yesterday"
+msgstr "Hier"
+
+#: ../lib/asn1time.cpp:199
+msgctxt "QObject|"
+msgid "Tomorrow"
+msgstr "Demain"
+
+#: ../lib/asn1time.cpp:202
+#, qt-format
+msgctxt "QObject|"
+msgid "in %1 hours"
+msgstr "dans %1 heures"
+
+#: ../lib/asn1time.cpp:203
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 hours ago"
+msgstr "il y a %1 heures"
+
+#: ../lib/pki_temp.cpp:31 ../lib/pki_temp.cpp:41
+msgctxt "QObject|"
+msgid "Out of data"
+msgstr "A court de données"
+
+#: ../lib/pki_temp.cpp:52
+msgctxt "QObject|"
+msgid "Error finding endmarker of string"
+msgstr "Erreur: une marque de fin de chaîne n'a pas été trouvée"
+
+#: ../lib/load_obj.cpp:20
+msgctxt "QObject|"
+msgid "All files ( * )"
+msgstr "Tous les fichiers ( * )"
+
+#: ../lib/load_obj.cpp:56
+msgctxt "QObject|"
+msgid ""
+"PKI Keys ( *.pem *.der *.key );; PKCS#8 Keys ( *.p8 *.pk8 );; Microsoft PVK "
+"Keys ( *.pvk );; SSH Public Keys ( *.pub );;"
+msgstr ""
+"Clés PKI ( *.pem *.der *.key );; Clés PKCS#8 ( *.p8 *.pk8 );; Clés Microsoft "
+"PVK ( *.pvk );; Clés publiques SSH ( *.pub );;"
+
+#: ../lib/load_obj.cpp:60
+msgctxt "QObject|"
+msgid "Import RSA key"
+msgstr "Importer une clé RSA"
+
+#: ../lib/load_obj.cpp:72
+msgctxt "QObject|"
+msgid "PKCS#10 CSR ( *.pem *.der *.csr );; "
+msgstr "PKCS#10 CSR ( *.pem *.der *.csr );;"
+
+#: ../lib/load_obj.cpp:73
+msgctxt "QObject|"
+msgid "Import Request"
+msgstr "Importer une requête"
+
+#: ../lib/load_obj.cpp:85
+msgctxt "QObject|"
+msgid "Certificates ( *.pem *.der *.crt *.cer );;"
+msgstr "Certificats ( *.pem *.der *.crt *.cer );;"
+
+#: ../lib/load_obj.cpp:86
+msgctxt "QObject|"
+msgid "Import X.509 Certificate"
+msgstr "Importer un certificat X.509"
+
+#: ../lib/load_obj.cpp:98
+msgctxt "QObject|"
+msgid "PKCS#7 data ( *.p7s *.p7m *.p7b );;"
+msgstr "Données PKCS#7 ( *.p7s *.p7m *.p7b );;"
+
+#: ../lib/load_obj.cpp:99
+msgctxt "QObject|"
+msgid "Import PKCS#7 Certificates"
+msgstr "Importer un certificat PKCS#7"
+
+#: ../lib/load_obj.cpp:111
+msgctxt "QObject|"
+msgid "PKCS#12 Certificates ( *.p12 *.pfx );;"
+msgstr "Certificats PKCS#12 ( *.p12 *.pfx );;"
+
+#: ../lib/load_obj.cpp:112
+msgctxt "QObject|"
+msgid "Import PKCS#12 Private Certificate"
+msgstr "Importer un certificat privé PKCS#12"
+
+#: ../lib/load_obj.cpp:125
+msgctxt "QObject|"
+msgid "XCA templates ( *.xca );;"
+msgstr "Modèles XCA ( *.xca );;"
+
+#: ../lib/load_obj.cpp:126
+msgctxt "QObject|"
+msgid "Import XCA Templates"
+msgstr "Importer des modèles XCA"
+
+#: ../lib/load_obj.cpp:138
+msgctxt "QObject|"
+msgid "Revocation lists ( *.pem *.der *.crl );;"
+msgstr "Listes de révocation ( *.pem *.der *.crl );;"
+
+#: ../lib/load_obj.cpp:139
+msgctxt "QObject|"
+msgid "Import Certificate Revocation List"
+msgstr "Importer une liste de révocation de certificats"
+
+#: ../lib/load_obj.cpp:151
+msgctxt "QObject|"
+msgid "XCA Databases ( *.xdb );;"
+msgstr "Bases de données XCA ( *.xdb );;"
+
+#: ../lib/load_obj.cpp:152
+msgctxt "QObject|"
+msgid "Open XCA Database"
+msgstr "Ouvrir une Base de Données XCA"
+
+#: ../lib/load_obj.cpp:159
+msgctxt "QObject|"
+msgid "OpenVPN tls-auth key ( *.key );;"
+msgstr "clé tls-auth de OpenVPN ( *.key );;"
+
+#: ../lib/load_obj.cpp:160
+msgctxt "QObject|"
+msgid "Import OpenVPN tls-auth key"
+msgstr "Importer une clé tls-auth de OpenVPN"
+
+#: ../lib/load_obj.cpp:168
+msgctxt "QObject|"
+msgid "PKCS#11 library ( *.dll );;"
+msgstr "Bibliothèque PKCS#11 ( *.dll );;"
+
+#: ../lib/load_obj.cpp:170
+msgctxt "QObject|"
+msgid "PKCS#11 library ( *.dylib *.so );;"
+msgstr "Bibliothèque PKCS#11 ( *.dylib *.so );;"
+
+#: ../lib/load_obj.cpp:172
+msgctxt "QObject|"
+msgid "PKCS#11 library ( *.so );;"
+msgstr "Bibliothèque PKCS#11 ( *.so );;"
+
+#: ../lib/load_obj.cpp:174
+msgctxt "QObject|"
+msgid "Open PKCS#11 shared library"
+msgstr "Ouvrir une bibliothèque partagée PKCS#11"
+
+#: ../lib/load_obj.cpp:181
+msgctxt "QObject|"
+msgid "PEM files ( *.pem );;"
+msgstr "Fichiers PEM ( *.pem );;"
+
+#: ../lib/load_obj.cpp:182
+msgctxt "QObject|"
+msgid "Load PEM encoded file"
+msgstr "Charger un fichier en format PEM"
+
+#: ../lib/pkcs11.cpp:219
+msgctxt "QObject|"
+msgid "Please enter the PIN on the PinPad"
+msgstr "Saisir le NIP sur le pavé prévu à cet effet SVP"
+
+#: ../lib/pkcs11.cpp:236
+#, qt-format
+msgctxt "QObject|"
+msgid "Please enter the SO PIN (PUK) of the token %1"
+msgstr "SVP saisir le PUK du jeton '%1'"
+
+#: ../lib/pkcs11.cpp:237
+#, qt-format
+msgctxt "QObject|"
+msgid "Please enter the PIN of the token %1"
+msgstr "SVP saisir le NIP du jeton '%1'"
+
+#: ../lib/pkcs11.cpp:291
+msgctxt "QObject|"
+msgid "No Security token found"
+msgstr "Aucun jeton de sécurité trouvé"
+
+#: ../lib/pkcs11.cpp:302
+msgctxt "QObject|"
+msgid "Select"
+msgstr "Sélectionner"
+
+#: ../lib/pkcs11.cpp:325
+#, qt-format
+msgctxt "QObject|"
+msgid "Please enter the new SO PIN (PUK) for the token: '%1'"
+msgstr "SVP saisir le nouveau PUK pour le jeton: '%1'"
+
+#: ../lib/pkcs11.cpp:327
+#, qt-format
+msgctxt "QObject|"
+msgid "Please enter the new PIN for the token: '%1'"
+msgstr "SVP saisir le nouveau NIP pour le jeton: '%1'"
+
+#: ../lib/pkcs11.h:96
+#, qt-format
+msgctxt "QObject|"
+msgid "Required PIN size: %1 - %2"
+msgstr "Taille du NIP requise: %1 - %2"
+
+#: ../lib/pkcs11_lib.cpp:119
+msgctxt "QObject|"
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: ../lib/pkcs11_lib.cpp:123
+msgctxt "QObject|"
+msgid "Library loading failed"
+msgstr "Le chargement de la bibliothèque a échoué"
+
+#: ../lib/pkcs11_lib.cpp:484
+#, qt-format
+msgctxt "QObject|"
+msgid "PKCS#11 function '%1' failed: %2"
+msgstr "La fonction PKCS#11 '%1' a échoué: %2"
+
+#: ../lib/pkcs11_lib.cpp:492
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"PKCS#11 function '%1' failed: %2\n"
+"In library %3\n"
+"%4"
+msgstr ""
+"La fonction PKCS#11 '%1' a échoué: %2\n"
+"Dans la bibliothèque %3\n"
+"%4"
+
+#: ../lib/x509name.cpp:104
+msgctxt "QObject|"
+msgid "Invalid"
+msgstr "Invalide"
+
+#: ../lib/x509name.cpp:220
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 is shorter than %2 bytes: '%3'"
+msgstr "%1 est plus court que %2 octets: '%3'"
+
+#: ../lib/x509name.cpp:225
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 is longer than %2 bytes: '%3'"
+msgstr "%1 est plus long que %2 octets: '%3'"
+
+#: ../lib/x509v3ext.cpp:112
+#, qt-format
+msgctxt "QObject|"
+msgid "String '%1' for '%2' contains invalid characters"
+msgstr "La chaîne '%1' pour '%2' contient des caractères invalides"
+
+#: ../lib/oid.cpp:58
+#, qt-format
+msgctxt "QObject|"
+msgid "Error reading config file %1 at line %2"
+msgstr "Erreur de lecture du fichier de configuration %1 à la ligne %2"
+
+#: ../lib/oid.cpp:96
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"The Object '%1' from file %2 line %3 is already known as '%4:%5:%6' and "
+"should be removed."
+msgstr ""
+"L'objet '%1' du fichier %2, ligne %3 est déjà connu comme '%4:%5:%6' et "
+"devrait être détruit."
+
+#: ../lib/oid.cpp:105
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"The identifier '%1' for OID %2 from file %3 line %4 is already used for a "
+"different OID as '%5:%6:%7' and should be changed to avoid conflicts."
+msgstr ""
+"L'identificateur '%1' de l'OID %2 du fichier %3, ligne %4 est déjà utilisé "
+"pour un OID différent connu comme '%5:%6:%7' et devrait être changé pour "
+"éviter les conflits."
+
+#: ../lib/oid.cpp:170
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown object '%1' in file %2 line %3"
+msgstr "Objet inconnu '%1' dans le fichier %2, ligne %3"
+
+#: ../lib/sql.h:55
+msgctxt "QObject|"
+msgid "Failed to start a database transaction"
+msgstr "Impossible de démarrer la transaction BDD"
+
+#: ../lib/func_base.cpp:244
+msgctxt "QObject|"
+msgid "Country code"
+msgstr "Code de pays"
+
+#: ../lib/func_base.cpp:245
+msgctxt "QObject|"
+msgid "State or Province"
+msgstr "Etat ou province"
+
+#: ../lib/func_base.cpp:246
+msgctxt "QObject|"
+msgid "Locality"
+msgstr "Localité"
+
+#: ../lib/func_base.cpp:247
+msgctxt "QObject|"
+msgid "Organisation"
+msgstr "Organisation"
+
+#: ../lib/func_base.cpp:248
+msgctxt "QObject|"
+msgid "Organisational unit"
+msgstr "Unité d'organisation"
+
+#: ../lib/func_base.cpp:249
+msgctxt "QObject|"
+msgid "Common name"
+msgstr "Nom commun"
+
+#: ../lib/func_base.cpp:250
+msgctxt "QObject|"
+msgid "E-Mail address"
+msgstr "Adresse de courriel"
+
+#: ../lib/func_base.cpp:251
+msgctxt "QObject|"
+msgid "Serial number"
+msgstr "Numéro de série"
+
+#: ../lib/func_base.cpp:252
+msgctxt "QObject|"
+msgid "Given name"
+msgstr "Prénom"
+
+#: ../lib/func_base.cpp:253
+msgctxt "QObject|"
+msgid "Surname"
+msgstr "Nom de famille"
+
+#: ../lib/func_base.cpp:254
+msgctxt "QObject|"
+msgid "Title"
+msgstr "Titre"
+
+#: ../lib/func_base.cpp:255
+msgctxt "QObject|"
+msgid "Initials"
+msgstr "Initiales"
+
+#: ../lib/func_base.cpp:256
+msgctxt "QObject|"
+msgid "Description"
+msgstr "Description"
+
+#: ../lib/func_base.cpp:257
+msgctxt "QObject|"
+msgid "Role"
+msgstr "Rôle"
+
+#: ../lib/func_base.cpp:258
+msgctxt "QObject|"
+msgid "Pseudonym"
+msgstr "Pseudonyme"
+
+#: ../lib/func_base.cpp:259
+msgctxt "QObject|"
+msgid "Generation Qualifier"
+msgstr "Qualifiant de génération"
+
+#: ../lib/func_base.cpp:260
+msgctxt "QObject|"
+msgid "x500 Unique Identifier"
+msgstr "Identifiant Unique X500"
+
+#: ../lib/func_base.cpp:261
+msgctxt "QObject|"
+msgid "Name"
+msgstr "Nom"
+
+#: ../lib/func_base.cpp:262
+msgctxt "QObject|"
+msgid "DN Qualifier"
+msgstr "Qualifiant de DN"
+
+#: ../lib/func_base.cpp:263
+msgctxt "QObject|"
+msgid "Unstructured name"
+msgstr "Nom non-structuré"
+
+#: ../lib/func_base.cpp:264
+msgctxt "QObject|"
+msgid "Challenge password"
+msgstr "Mot de passe challenge"
+
+#: ../lib/func_base.cpp:266
+msgctxt "QObject|"
+msgid "Basic Constraints"
+msgstr "Contraintes de base"
+
+#: ../lib/func_base.cpp:267
+msgctxt "QObject|"
+msgid "Name Constraints"
+msgstr "Contraintes sur le nom"
+
+#: ../lib/func_base.cpp:268
+msgctxt "QObject|"
+msgid "Subject alternative name"
+msgstr "Nom alternatif du sujet"
+
+#: ../lib/func_base.cpp:269
+msgctxt "QObject|"
+msgid "issuer alternative name"
+msgstr "Nom alternatif de l'émetteur"
+
+#: ../lib/func_base.cpp:270
+msgctxt "QObject|"
+msgid "Subject key identifier"
+msgstr "Clé d'identification du sujet"
+
+#: ../lib/func_base.cpp:271
+msgctxt "QObject|"
+msgid "Authority key identifier"
+msgstr "Clé d'identification de l'autorité"
+
+#: ../lib/func_base.cpp:272
+msgctxt "QObject|"
+msgid "Key usage"
+msgstr "Usage de la clé"
+
+#: ../lib/func_base.cpp:273
+msgctxt "QObject|"
+msgid "Extended key usage"
+msgstr "Usage étendu de la clé"
+
+#: ../lib/func_base.cpp:274
+msgctxt "QObject|"
+msgid "CRL distribution points"
+msgstr "Points de distribution de la CRL"
+
+#: ../lib/func_base.cpp:275
+msgctxt "QObject|"
+msgid "Authority information access"
+msgstr "Accès à l'information de l'autorité"
+
+#: ../lib/func_base.cpp:276
+msgctxt "QObject|"
+msgid "Certificate type"
+msgstr "Type de certificat"
+
+#: ../lib/func_base.cpp:277
+msgctxt "QObject|"
+msgid "Base URL"
+msgstr "URL de base"
+
+#: ../lib/func_base.cpp:278
+msgctxt "QObject|"
+msgid "Revocation URL"
+msgstr "URL de révocation"
+
+#: ../lib/func_base.cpp:279
+msgctxt "QObject|"
+msgid "CA Revocation URL"
+msgstr "URL de révocation du CA"
+
+#: ../lib/func_base.cpp:280
+msgctxt "QObject|"
+msgid "Certificate renewal URL"
+msgstr "URL de renouvellement du certificat"
+
+#: ../lib/func_base.cpp:281
+msgctxt "QObject|"
+msgid "CA policy URL"
+msgstr "URL de la politique du CA"
+
+#: ../lib/func_base.cpp:282
+msgctxt "QObject|"
+msgid "SSL server name"
+msgstr "Nom du serveur SSL"
+
+#: ../lib/func_base.cpp:283
+msgctxt "QObject|"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../lib/cmdline.cpp:166
+#, qt-format
+msgctxt "QObject|"
+msgid "Index file written to '%1'"
+msgstr "Fichier d'index écrit dans '%1'"
+
+#: ../lib/cmdline.cpp:173
+#, qt-format
+msgctxt "QObject|"
+msgid "Index hierarchy written to '%1'"
+msgstr "Hiérarchie d'index écrite dans '%1'"
+
+#: ../lib/cmdline.cpp:186
+#, qt-format
+msgctxt "QObject|"
+msgid "Unknown key type %1"
+msgstr "Type de clé inconnu %1"
+
+#: ../lib/cmdline.cpp:273
+#, qt-format
+msgctxt "QObject|"
+msgid "Failed to write PEM data to '%1'"
+msgstr "Impossible d'écrire les données en PEM dans '%1'"
+
+#: ../lib/XcaWarningCore.h:23
+msgctxt "QObject|"
+msgid "Password verify error, please try again"
+msgstr "La vérification du mot de passe a échoué. SVP essayez encore"
+
+#: ../lib/XcaWarningCore.h:95
+msgctxt "QObject|"
+msgid "The following error occurred:"
+msgstr "L'erreur suivante s'est produite:"
+
+#: ../lib/database_model.cpp:117
+msgctxt "QObject|"
+msgid "Failed to update the database schema to the current version"
+msgstr ""
+"Impossible de mettre à jour le schéma de la base de données vers la version "
+"courante"
+
+#: ../lib/PwDialogCore.cpp:33
+msgctxt "QObject|"
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../lib/pki_pkcs12.cpp:217
+msgctxt "QObject|"
+msgid "insecure"
+msgstr "précaire"
+
+#: ../widgets/ReqTreeView.cpp:27
+msgctxt "ReqTreeView|"
+msgid "Sign"
+msgstr "Signer"
+
+#: ../widgets/ReqTreeView.cpp:29
+msgctxt "ReqTreeView|"
+msgid "Unmark signed"
+msgstr "Marquer comme non-signée"
+
+#: ../widgets/ReqTreeView.cpp:32
+msgctxt "ReqTreeView|"
+msgid "Mark signed"
+msgstr "Marquer comme signée"
+
+#: ../widgets/ReqTreeView.cpp:35
+msgctxt "ReqTreeView|"
+msgid "Similar Request"
+msgstr "Requête similaire"
+
+#: ../widgets/ReqTreeView.cpp:75
+msgctxt "ReqTreeView|"
+msgid "Certificate request export"
+msgstr "Exporter la requête de signature"
+
+#: ../widgets/ReqTreeView.cpp:76
+msgctxt "ReqTreeView|"
+msgid "Certificate request ( *.pem *.der *.csr )"
+msgstr "Requête de signature de certificat ( *.pem *.der *.csr )"
+
+#: ../ui/RevocationList.ui:30
+msgctxt "RevocationList|"
+msgid "Manage revocations"
+msgstr "Gérer les révocations"
+
+#: ../ui/RevocationList.ui:96
+msgctxt "RevocationList|"
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../ui/RevocationList.ui:103
+msgctxt "RevocationList|"
+msgid "Delete"
+msgstr "Enlever"
+
+#: ../ui/RevocationList.ui:110
+msgctxt "RevocationList|"
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../widgets/RevocationList.cpp:77
+msgctxt "RevocationList|"
+msgid "No."
+msgstr "No."
+
+#: ../widgets/RevocationList.cpp:77
+msgctxt "RevocationList|"
+msgid "Serial"
+msgstr "Numéro de série"
+
+#: ../widgets/RevocationList.cpp:77
+msgctxt "RevocationList|"
+msgid "Revocation"
+msgstr "Révocation"
+
+#: ../widgets/RevocationList.cpp:77
+msgctxt "RevocationList|"
+msgid "Reason"
+msgstr "Raison"
+
+#: ../widgets/RevocationList.cpp:78
+msgctxt "RevocationList|"
+msgid "Invalidation"
+msgstr "Invalidation"
+
+#: ../widgets/RevocationList.cpp:107
+msgctxt "RevocationList|"
+msgid "Generate CRL"
+msgstr "Générer la liste de révocation"
+
+#: ../ui/Revoke.ui:30
+msgctxt "Revoke|"
+msgid "Certificate revocation"
+msgstr "Révocation du certificat"
+
+#: ../ui/Revoke.ui:87
+msgctxt "Revoke|"
+msgid "Revocation details"
+msgstr "Détails de la révocation"
+
+#: ../ui/Revoke.ui:96
+msgctxt "Revoke|"
+msgid "Revocation reason"
+msgstr "Raison de la révocation"
+
+#: ../ui/Revoke.ui:110
+msgctxt "Revoke|"
+msgid "Local time"
+msgstr "Heure locale"
+
+#: ../ui/Revoke.ui:117
+msgctxt "Revoke|"
+msgid "Invalid since"
+msgstr "Non-valide depuis"
+
+#: ../ui/Revoke.ui:124
+msgctxt "Revoke|"
+msgid "Serial"
+msgstr "Numéro de série"
+
+#: ../ui/SearchPkcs11.ui:41
+msgctxt "SearchPkcs11|"
+msgid "Directory"
+msgstr "Dossier"
+
+#: ../ui/SearchPkcs11.ui:57
+msgctxt "SearchPkcs11|"
+msgid "..."
+msgstr "..."
+
+#: ../ui/SearchPkcs11.ui:64
+msgctxt "SearchPkcs11|"
+msgid "Include subdirectories"
+msgstr "include les sous-dossiers"
+
+#: ../ui/SearchPkcs11.ui:71
+msgctxt "SearchPkcs11|"
+msgid "Search"
+msgstr "Rechercher"
+
+#: ../widgets/SearchPkcs11.cpp:76
+msgctxt "SearchPkcs11|"
+msgid "The following files are possible PKCS#11 libraries"
+msgstr ""
+"Les fichiers suivants sont susceptibles d'être des bibliothèques PKCS#11"
+
+#: ../ui/SelectToken.ui:39
+msgctxt "SelectToken|"
+msgid "Security token"
+msgstr "Jeton de sécurité"
+
+#: ../ui/SelectToken.ui:86
+msgctxt "SelectToken|"
+msgid "Please select the security token"
+msgstr "SVP sélectionner le jeton de sécurité"
+
+#: ../widgets/TempTreeView.cpp:25
+msgctxt "TempTreeView|"
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: ../widgets/TempTreeView.cpp:26
+msgctxt "TempTreeView|"
+msgid "Create certificate"
+msgstr "Créer un certificat"
+
+#: ../widgets/TempTreeView.cpp:27
+msgctxt "TempTreeView|"
+msgid "Create request"
+msgstr "Créer une requête"
+
+#: ../widgets/TempTreeView.cpp:38
+msgctxt "TempTreeView|"
+msgid "copy"
+msgstr "copier"
+
+#: ../widgets/TempTreeView.cpp:86
+msgctxt "TempTreeView|"
+msgid "Preset Template values"
+msgstr "Initialiser les valeurs du modèle"
+
+#: ../widgets/TempTreeView.cpp:124
+msgctxt "TempTreeView|"
+msgid "Template export"
+msgstr "Exporter le modèle"
+
+#: ../widgets/TempTreeView.cpp:125
+msgctxt "TempTreeView|"
+msgid "XCA Templates ( *.xca )"
+msgstr "Modèles XCA ( *.xca )"
+
+#: ../widgets/validity.cpp:91
+msgctxt "Validity|"
+msgid "yyyy-MM-dd hh:mm"
+msgstr "yyyy-MM-dd hh:mm"
+
+#: ../widgets/X509SuperTreeView.cpp:28
+msgctxt "X509SuperTreeView|"
+msgid "Transform"
+msgstr "Transformer"
+
+#: ../widgets/X509SuperTreeView.cpp:29
+msgctxt "X509SuperTreeView|"
+msgid "Template"
+msgstr "Modèle"
+
+#: ../widgets/X509SuperTreeView.cpp:30
+msgctxt "X509SuperTreeView|"
+msgid "Public key"
+msgstr "Clé publique"
+
+#: ../lib/xfile.h:28
+#, qt-format
+msgctxt "XFile|"
+msgid "Error opening file: '%1': %2"
+msgstr "Erreur d'ouverture du fichier: '%1': %2"
+
+#: ../lib/xfile.h:41
+#, qt-format
+msgctxt "XFile|"
+msgid "Error rewinding file: '%1': %2"
+msgstr "Erreur de repositionnement du fichier: '%1' %2"
+
+#: ../widgets/XcaDetail.cpp:47
+msgctxt "XcaDetail|"
+msgid "Import"
+msgstr "Importer"
+
+#: ../widgets/XcaTreeView.cpp:332
+msgctxt "XcaTreeView|"
+msgid "Item properties"
+msgstr "Propriétés de l'élement"
+
+#: ../widgets/XcaTreeView.cpp:402
+msgctxt "XcaTreeView|"
+msgid "Subject entries"
+msgstr "Inscriptions du sujet"
+
+#: ../widgets/XcaTreeView.cpp:403
+msgctxt "XcaTreeView|"
+msgid "X509v3 Extensions"
+msgstr "Extensions X509v3"
+
+#: ../widgets/XcaTreeView.cpp:404
+msgctxt "XcaTreeView|"
+msgid "Netscape extensions"
+msgstr "Extensions Netscape"
+
+#: ../widgets/XcaTreeView.cpp:405
+msgctxt "XcaTreeView|"
+msgid "Key properties"
+msgstr "Propriétés de la clé"
+
+#: ../widgets/XcaTreeView.cpp:406
+msgctxt "XcaTreeView|"
+msgid "Reset"
+msgstr "Réinitialisation"
+
+#: ../widgets/XcaTreeView.cpp:409
+msgctxt "XcaTreeView|"
+msgid "Hide Column"
+msgstr "Cacher la colonne"
+
+#: ../widgets/XcaTreeView.cpp:411
+msgctxt "XcaTreeView|"
+msgid "Details"
+msgstr "Détails"
+
+#: ../widgets/XcaTreeView.cpp:452
+msgctxt "XcaTreeView|"
+msgid "Columns"
+msgstr "Colonnes"
+
+#: ../widgets/XcaTreeView.cpp:509
+msgctxt "XcaTreeView|"
+msgid "Export Password"
+msgstr "Mot de passe d'exportation"
+
+#: ../widgets/XcaTreeView.cpp:510
+#, qt-format
+msgctxt ""
+"XcaTreeView|Singular form for 0 or 1 item can be ignored. Will always be "
+"called with n >= 2"
+msgid ""
+"Please enter the password to encrypt all %n exported private key(s) in:\n"
+"%1"
+msgid_plural ""
+"Please enter the password to encrypt all %n exported private key(s) in:\n"
+"%1"
+msgstr[0] ""
+"SVP saisir le mot de passe pour chiffrer les %n clé(s) privée(s) exportée(s) "
+"vers:\n"
+"%1"
+msgstr[1] ""
+"SVP saisir le mot de passe pour chiffrer les %n clé(s) privée(s) exportée(s) "
+"vers:\n"
+"%1"
+
+#: ../widgets/XcaTreeView.cpp:553
+msgctxt "XcaTreeView|"
+msgid "New"
+msgstr "Créer"
+
+#: ../widgets/XcaTreeView.cpp:554
+msgctxt "XcaTreeView|"
+msgid "Import"
+msgstr "Importer"
+
+#: ../widgets/XcaTreeView.cpp:555
+msgctxt "XcaTreeView|"
+msgid "Paste PEM data"
+msgstr "Coller les données en format PEM"
+
+#: ../widgets/XcaTreeView.cpp:559
+msgctxt "XcaTreeView|"
+msgid "Rename"
+msgstr "Renommer"
+
+#: ../widgets/XcaTreeView.cpp:560
+msgctxt "XcaTreeView|"
+msgid "Properties"
+msgstr "Propriétés"
+
+#: ../widgets/XcaTreeView.cpp:563
+msgctxt "XcaTreeView|"
+msgid "Delete"
+msgstr "Enlever"
+
+#: ../widgets/XcaTreeView.cpp:565
+msgctxt "XcaTreeView|"
+msgid "Export"
+msgstr "Exporter"
+
+#: ../widgets/XcaTreeView.cpp:567
+msgctxt "XcaTreeView|"
+msgid "Clipboard"
+msgstr "Presse-papier"
+
+#: ../widgets/XcaTreeView.cpp:573
+msgctxt "XcaTreeView|"
+msgid "File"
+msgstr "Fichier"
+
+#: ../widgets/XcaTreeView.cpp:635
+msgctxt "XcaTreeView|"
+msgid "Clipboard format"
+msgstr "Format du presse-papier"
+
+#: ../lib/database_model.cpp:168
+#, qt-format
+msgctxt "database_model|"
+msgid ""
+"Please enter the password to access the database server %2 as user '%1'."
+msgstr ""
+"SVP saisir le mot de passe de l'utilisateur '%1' sur le serveur de base de "
+"données %2."
+
+#: ../lib/database_model.cpp:286
+#, qt-format
+msgctxt "database_model|"
+msgid "Unable to create '%1': %2"
+msgstr "Impossible de créer '%1': %2"
+
+#: ../lib/database_model.cpp:449
+#, qt-format
+msgctxt "database_model|"
+msgid "The file '%1' is not an XCA database"
+msgstr "Le fichier '%1' n'est pas une base de données XCA"
+
+#: ../lib/database_model.cpp:476
+msgctxt "database_model|"
+msgid ""
+"No SqLite3 driver available. Please install the qt-sqlite package of your "
+"distribution"
+msgstr ""
+"Le pilote SqLite3 n'est pas disponible. SVP installez le paquetage qt-sqlite "
+"de votre distribution"
+
+#: ../lib/database_model.cpp:517
+msgctxt "database_model|"
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: ../lib/database_model.cpp:517
+#, qt-format
+msgctxt "database_model|"
+msgid ""
+"Please enter a password, that will be used to encrypt your private keys in "
+"the database:\n"
+"%1"
+msgstr ""
+"Veuillez saisir un mot de passe, qui sera utilisé pour chiffrer vos clés "
+"privées dans la base de données:\n"
+"%1"
+
+#: ../lib/database_model.cpp:537
+msgctxt "database_model|"
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../lib/database_model.cpp:538
+#, qt-format
+msgctxt "database_model|"
+msgid ""
+"Please enter the password for unlocking the database:\n"
+"%1"
+msgstr ""
+"Veuillez entrer le mot passe pour déverrouiller la base de données:\n"
+"%1"
+
+#: ../lib/db_base.cpp:160
+msgctxt "db_base|"
+msgid "Internal name"
+msgstr "Nom interne"
+
+#: ../lib/db_base.cpp:161
+msgctxt "db_base|"
+msgid "No."
+msgstr "No."
+
+#: ../lib/db_base.cpp:162
+msgctxt "db_base|"
+msgid "Primary key"
+msgstr "Clé primaire"
+
+#: ../lib/db_base.cpp:163
+msgctxt "db_base|"
+msgid "Database unique number"
+msgstr "Numéro unique de la base de données"
+
+#: ../lib/db_base.cpp:164
+msgctxt "db_base|"
+msgid "Date"
+msgstr "Date"
+
+#: ../lib/db_base.cpp:165
+msgctxt "db_base|"
+msgid "Date of creation or insertion"
+msgstr "Date de création ou d'importation"
+
+#: ../lib/db_base.cpp:166
+msgctxt "db_base|"
+msgid "Source"
+msgstr "Source"
+
+#: ../lib/db_base.cpp:167
+msgctxt "db_base|"
+msgid "Generated, Imported, Transformed"
+msgstr "Généré, Importé, Transformé"
+
+#: ../lib/db_base.cpp:168
+msgctxt "db_base|"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../lib/db_base.cpp:169
+msgctxt "db_base|"
+msgid "First line of the comment field"
+msgstr "Première ligne du champ de commentaire"
+
+#: ../lib/db_base.cpp:231
+#, qt-format
+msgctxt "db_base|"
+msgid "Import from: %1"
+msgstr "Importer à partir de: %1"
+
+#: ../lib/db_base.cpp:374
+#, qt-format
+msgctxt "db_base|"
+msgid "Could not create directory %1"
+msgstr "Impossible de créer le répertoire %1"
+
+#: ../lib/db_crl.cpp:26
+msgctxt "db_crl|"
+msgid "Signer"
+msgstr "Signataire"
+
+#: ../lib/db_crl.cpp:27
+msgctxt "db_crl|"
+msgid "Internal name of the signer"
+msgstr "Nom interne du signataire"
+
+#: ../lib/db_crl.cpp:28
+msgctxt "db_crl|"
+msgid "No. revoked"
+msgstr "Numéro révoqué"
+
+#: ../lib/db_crl.cpp:29
+msgctxt "db_crl|"
+msgid "Number of revoked certificates"
+msgstr "Nombre de certificats révoqués"
+
+#: ../lib/db_crl.cpp:30
+msgctxt "db_crl|"
+msgid "Last update"
+msgstr "Dernière mise-à-jour"
+
+#: ../lib/db_crl.cpp:31
+msgctxt "db_crl|"
+msgid "Next update"
+msgstr "Prochaine mise-à-jour"
+
+#: ../lib/db_crl.cpp:32
+msgctxt "db_crl|"
+msgid "CRL number"
+msgstr "Numéro de la liste de révocation"
+
+#: ../lib/db_crl.cpp:95
+#, qt-format
+msgctxt "db_crl|"
+msgid ""
+"The revocation list already exists in the database as:\n"
+"'%1'\n"
+"and so it was not imported"
+msgstr ""
+"Cette liste de révocation figure déjà dans la base de données sous le nom:\n"
+"'%1'\n"
+"En conséquence, elle n'a pas été importée"
+
+#: ../lib/db_crl.cpp:169
+msgctxt "db_crl|"
+msgid "Failed to initiate DB transaction"
+msgstr "Impossible de démarrer la transaction BDD"
+
+#: ../lib/db_crl.cpp:179 ../lib/db_crl.cpp:187 ../lib/db_crl.cpp:191
+#, qt-format
+msgctxt "db_crl|"
+msgid "Database error: %1"
+msgstr "Erreur de la base de données: %1"
+
+#: ../lib/db_key.cpp:53
+msgctxt "db_key|"
+msgid "Type"
+msgstr "Type"
+
+#: ../lib/db_key.cpp:54
+msgctxt "db_key|"
+msgid "Size"
+msgstr "Taille"
+
+#: ../lib/db_key.cpp:56
+msgctxt "db_key|"
+msgid "EC Group"
+msgstr "Groupe EC"
+
+#: ../lib/db_key.cpp:58
+msgctxt "db_key|"
+msgid "Use"
+msgstr "Usage"
+
+#: ../lib/db_key.cpp:59
+msgctxt "db_key|"
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../lib/db_key.cpp:133
+#, qt-format
+msgctxt "db_key|"
+msgid ""
+"The key is already in the database as:\n"
+"'%1'\n"
+"and is not going to be imported"
+msgstr ""
+"Cette clé figure déjà dans la base de données sous le nom:\n"
+"'%1'\n"
+"En conséquence, elle ne va pas être importée"
+
+#: ../lib/db_key.cpp:138
+#, qt-format
+msgctxt "db_key|"
+msgid ""
+"The database already contains the public part of the imported key as\n"
+"'%1\n"
+"and will be completed by the new, private part of the key"
+msgstr ""
+"La base de données connait déjà la partie publique de la clé importée sous "
+"le nom\n"
+"'%1'\n"
+"En conséquence, cette dernière sera complétée par la partie privée de la clé "
+"importée"
+
+#: ../lib/db_key.cpp:140
+#, qt-format
+msgctxt "db_key|"
+msgid "Extending public key from %1 by imported key '%2'"
+msgstr "Extension de la clé publique de %1 par la clé importée '%2'"
+
+#: ../lib/db_key.cpp:156
+msgctxt "db_key|"
+msgid "Key size too small !"
+msgstr "Taille de clé trop petite !"
+
+#: ../lib/db_key.cpp:160
+#, qt-format
+msgctxt "db_key|"
+msgid "You are sure to create a key of the size: %1 ?"
+msgstr "Etes-vous sûr de vouloir créer une clé de taille %1 ?"
+
+#: ../lib/db_key.cpp:284
+#, qt-format
+msgctxt "db_key|"
+msgid ""
+"Internal key update: The keys: %1 must be updated once by resetting and "
+"setting its private password"
+msgstr ""
+"Mise-à-jour interne des clés: Les clés: '%1' doivent être mises à jour une "
+"seule fois par réinitialisation du mot de passe privé"
+
+#: ../lib/db_key.cpp:298
+msgctxt "db_key|"
+msgid "Tried to change password of a token"
+msgstr "Tentative de changement de mot de passe d'un jeton de sécurité"
+
+#: ../lib/db_temp.cpp:59
+#, qt-format
+msgctxt "db_temp|"
+msgid "Bad template: %1"
+msgstr "Mauvais modèle: %1"
+
+#: ../lib/db_temp.cpp:32
+msgctxt "db_temp|"
+msgid "Empty template"
+msgstr "Modèle vide"
+
+#: ../lib/db_x509.cpp:77
+msgctxt "db_x509|"
+msgid "CA"
+msgstr "CA"
+
+#: ../lib/db_x509.cpp:78
+msgctxt "db_x509|"
+msgid "reflects the basic Constraints extension"
+msgstr "reflète l'extension des contraintes basiques"
+
+#: ../lib/db_x509.cpp:79
+msgctxt "db_x509|"
+msgid "Serial"
+msgstr "Numéro de série"
+
+#: ../lib/db_x509.cpp:83
+msgctxt "db_x509|"
+msgid "Start date"
+msgstr "Date de début"
+
+#: ../lib/db_x509.cpp:85
+msgctxt "db_x509|"
+msgid "Expiry date"
+msgstr "Date d'expiration"
+
+#: ../lib/db_x509.cpp:80
+msgctxt "db_x509|"
+msgid "MD5 fingerprint"
+msgstr "Empreinte MD5"
+
+#: ../lib/db_x509.cpp:81
+msgctxt "db_x509|"
+msgid "SHA1 fingerprint"
+msgstr "Empreinte SHA1"
+
+#: ../lib/db_x509.cpp:82
+msgctxt "db_x509|"
+msgid "SHA256 fingerprint"
+msgstr "Empreinte SHA256"
+
+#: ../lib/db_x509.cpp:84
+msgctxt "db_x509|"
+msgid "Not before"
+msgstr "Pas avant"
+
+#: ../lib/db_x509.cpp:86
+msgctxt "db_x509|"
+msgid "Not after"
+msgstr "Pas après"
+
+#: ../lib/db_x509.cpp:87
+msgctxt "db_x509|"
+msgid "Revocation"
+msgstr "Révocation"
+
+#: ../lib/db_x509.cpp:88
+msgctxt "db_x509|"
+msgid "CRL Expiration"
+msgstr "Expiration de la CRL"
+
+#: ../lib/db_x509.cpp:314
+msgctxt "db_x509|"
+msgid "Failed to retrieve unique random serial"
+msgstr "L'extraction d'un numéro de série aléatoire a échoué"
+
+#: ../lib/db_x509.cpp:337
+#, qt-format
+msgctxt "db_x509|"
+msgid ""
+"The certificate already exists in the database as:\n"
+"'%1'\n"
+"and so it was not imported"
+msgstr ""
+"Ce certificat figure déjà dans la base de données sous le nom:\n"
+"'%1'\n"
+"En conséquence, il n'a pas été importé"
+
+#: ../lib/db_x509.cpp:363
+#, qt-format
+msgctxt "db_x509|"
+msgid "Signed on %1 by '%2'"
+msgstr "Signé le %1 par '%2'"
+
+#: ../lib/db_x509.cpp:364
+msgctxt "db_x509|"
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: ../lib/db_x509.cpp:454
+msgctxt "db_x509|"
+msgid "Invalid public key"
+msgstr "Clé publique invalide"
+
+#: ../lib/db_x509.cpp:480
+msgctxt "db_x509|"
+msgid "The key you selected for signing is not a private one."
+msgstr "La clé sélectionnée pour la signature n'est pas une clé privée."
+
+#: ../lib/db_x509.cpp:266
+#, qt-format
+msgctxt "db_x509|"
+msgid "Failed to create directory '%1'"
+msgstr "Impossible de créer le répertoire %1"
+
+#: ../lib/db_x509.cpp:521
+#, qt-format
+msgctxt "db_x509|"
+msgid "Store the certificate to the key on the token '%1 (#%2)' ?"
+msgstr "Enregistrer le certificate avec la clé sur le jeton '%1 (#%2)' ?"
+
+#: ../lib/db_x509.cpp:617 ../lib/db_x509.cpp:703
+#, qt-format
+msgctxt "db_x509|"
+msgid "There was no key found for the Certificate: '%1'"
+msgstr "Aucune clé n'a été trouvée pour le Certificat. '%1'"
+
+#: ../lib/db_x509.cpp:620
+#, qt-format
+msgctxt "db_x509|"
+msgid "Not possible for a token key: '%1'"
+msgstr "Impossible pour une clé d'un jeton de sécurité: '%1'"
+
+#: ../lib/db_x509.cpp:707
+#, qt-format
+msgctxt "db_x509|"
+msgid "Not possible for the token-key Certificate '%1'"
+msgstr "Impossible pour le certificat d'une clé d'un jeton de sécurité: '%1'"
+
+#: ../lib/db_x509super.cpp:27
+msgctxt "db_x509name|"
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../lib/db_x509super.cpp:28
+msgctxt "db_x509name|"
+msgid "Complete distinguished name"
+msgstr "Nom distinctif complet"
+
+#: ../lib/db_x509super.cpp:29
+msgctxt "db_x509name|"
+msgid "Subject hash"
+msgstr "Hachage du sujet"
+
+#: ../lib/db_x509super.cpp:30
+msgctxt "db_x509name|"
+msgid "Hash to lookup certs in directories"
+msgstr "Hachage de recherche dans un dossier"
+
+#: ../lib/db_x509req.cpp:29
+msgctxt "db_x509req|"
+msgid "Signed"
+msgstr "Signée"
+
+#: ../lib/db_x509req.cpp:30
+msgctxt "db_x509req|"
+msgid "whether the request is already signed or not"
+msgstr "si la requête a déjà été signée ou non"
+
+#: ../lib/db_x509req.cpp:31
+msgctxt "db_x509req|"
+msgid "Unstructured name"
+msgstr "Nom non-structuré"
+
+#: ../lib/db_x509req.cpp:33
+msgctxt "db_x509req|"
+msgid "Challenge password"
+msgstr "Mot de passe challenge"
+
+#: ../lib/db_x509req.cpp:35
+msgctxt "db_x509req|"
+msgid "Certificate count"
+msgstr "Nombre de certificats"
+
+#: ../lib/db_x509req.cpp:36
+msgctxt "db_x509req|"
+msgid "Number of certificates in the database with the same public key"
+msgstr "Nombre de certificats dans la base de données avec la même clé"
+
+#: ../lib/db_x509req.cpp:53
+#, qt-format
+msgctxt "db_x509req|"
+msgid ""
+"The certificate signing request already exists in the database as\n"
+"'%1'\n"
+"and thus was not stored"
+msgstr ""
+"Cette requête de signature figure déjà dans la base de données sous le nom\n"
+"'%1'\n"
+"En conséquence, elle n'a pas été chargée"
+
+#: ../lib/db_x509super.cpp:77
+msgctxt "db_x509super|"
+msgid "Key name"
+msgstr "Nom de la clé"
+
+#: ../lib/db_x509super.cpp:78
+msgctxt "db_x509super|"
+msgid "Internal name of the key"
+msgstr "Nom interne de la clé"
+
+#: ../lib/db_x509super.cpp:80
+msgctxt "db_x509super|"
+msgid "Signature algorithm"
+msgstr "Algorithme de signature"
+
+#: ../lib/db_x509super.cpp:81
+msgctxt "db_x509super|"
+msgid "Key type"
+msgstr "Type de clé"
+
+#: ../lib/db_x509super.cpp:82
+msgctxt "db_x509super|"
+msgid "Key size"
+msgstr "Taille de la clé"
+
+#: ../lib/db_x509super.cpp:84
+msgctxt "db_x509super|"
+msgid "EC Group"
+msgstr "Groupe EC"
+
+#: ../lib/db_x509super.cpp:138
+#, qt-format
+msgctxt "db_x509super|"
+msgid "Extracted from %1 '%2'"
+msgstr "Extrait de %1 '%2'"
+
+#: ../lib/db_x509super.cpp:140 ../lib/db_x509super.cpp:168
+msgctxt "db_x509super|"
+msgid "Certificate"
+msgstr "Certificat"
+
+#: ../lib/db_x509super.cpp:140 ../lib/db_x509super.cpp:168
+msgctxt "db_x509super|"
+msgid "Certificate request"
+msgstr "Requête de certificat"
+
+#: ../lib/db_x509super.cpp:163
+msgctxt "db_x509super|"
+msgid "The following extensions were not ported into the template"
+msgstr "Les extensions suivantes n'ont pas été enregistrées dans le modèle"
+
+#: ../lib/db_x509super.cpp:166
+#, qt-format
+msgctxt "db_x509super|"
+msgid "Transformed from %1 '%2'"
+msgstr "Transformé à partir de %1 '%2'"
+
+#: ../widgets/kvView.cpp:164
+msgctxt "kvView|"
+msgid "Type"
+msgstr "Type"
+
+#: ../widgets/kvView.cpp:164
+msgctxt "kvView|"
+msgid "Content"
+msgstr "Contenu"
+
+#: ../lib/pass_info.cpp:12
+msgctxt "pass_info|"
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../lib/pass_info.cpp:18
+msgctxt "pass_info|"
+msgid "PIN"
+msgstr "NIP"
+
+#: ../lib/pkcs11_lib.cpp:36
+#, qt-format
+msgctxt "pkcs11_lib|"
+msgid "Failed to open PKCS11 library: %1: %2"
+msgstr "L'ouverture de la bibliothèque PKCS11 a échoué: %1: %2"
+
+#: ../lib/pkcs11_lib.cpp:42
+msgctxt "pkcs11_lib|"
+msgid ""
+"This does not look like a PKCS#11 library. Symbol 'C_GetFunctionList' not "
+"found."
+msgstr ""
+"Cela n'a pas l'air d'une bibliothèque PKCS#11. Le symbole "
+"'C_GetFunctionList' n'a pas été trouvé."
+
+#: ../lib/pki_base.cpp:282
+msgctxt "pki_base|"
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: ../lib/pki_base.cpp:283
+msgctxt "pki_base|"
+msgid "Imported"
+msgstr "Importé"
+
+#: ../lib/pki_base.cpp:284
+msgctxt "pki_base|"
+msgid "Generated"
+msgstr "Généré"
+
+#: ../lib/pki_base.cpp:285
+msgctxt "pki_base|"
+msgid "Transformed"
+msgstr "Transformé"
+
+#: ../lib/pki_base.cpp:286
+msgctxt "pki_base|"
+msgid "Token"
+msgstr "Jeton"
+
+#: ../lib/pki_base.cpp:287
+msgctxt "pki_base|"
+msgid "Legacy Database"
+msgstr "Base de données antérieure"
+
+#: ../lib/pki_base.cpp:288
+msgctxt "pki_base|"
+msgid "Renewed"
+msgstr "Renouvelé"
+
+#: ../lib/pki_base.cpp:433
+#, qt-format
+msgctxt "pki_base|"
+msgid "Property '%1' not listed in 'pki_base::print'"
+msgstr "Propriété '%1' non listée dans 'pki_base::print'"
+
+#: ../lib/pki_base.cpp:113
+#, qt-format
+msgctxt "pki_base|"
+msgid "Internal error: Unexpected message: %1 %2"
+msgstr "Erreur interne: message inattendu: %1 %2"
+
+#: ../lib/pki_crl.cpp:59
+#, qt-format
+msgctxt "pki_crl|"
+msgid "Successfully imported the revocation list '%1'"
+msgstr "La liste de révocation '%1' a été importée avec succès"
+
+#: ../lib/pki_crl.cpp:61
+#, qt-format
+msgctxt "pki_crl|"
+msgid "Successfully created the revocation list '%1'"
+msgstr "La liste de révocation '%1' a été créée avec succès"
+
+#: ../lib/pki_crl.cpp:60
+#, qt-format
+msgctxt "pki_crl|"
+msgid "Delete the %n revocation list(s): '%1'?"
+msgid_plural "Delete the %n revocation list(s): '%1'?"
+msgstr[0] "Détruire les %n liste(s) de révocation '%1' ?"
+msgstr[1] "Détruire les %n liste(s) de révocation '%1' ?"
+
+#: ../lib/pki_crl.cpp:145
+#, qt-format
+msgctxt "pki_crl|"
+msgid ""
+"Unable to load the revocation list in file %1. Tried PEM and DER formatted "
+"CRL."
+msgstr ""
+"Impossible de charger le liste de révocation du fichier %1. Les formats PEM "
+"et DER ont été essayés."
+
+#: ../lib/pki_crl.cpp:160
+msgctxt "pki_crl|"
+msgid "No issuer given"
+msgstr "Aucun signataire spécifié"
+
+#: ../lib/pki_crl.cpp:421
+#, qt-format
+msgctxt "pki_crl|"
+msgid "CRL Renewal of CA '%1' due"
+msgstr "Le renouvellement de la liste de révocation du CA '%1' est nécessaire"
+
+#: ../lib/pki_crl.cpp:422
+#, qt-format
+msgctxt "pki_crl|"
+msgid ""
+"The latest CRL issued by the CA '%1' will expire on %2.\n"
+"It is stored in the XCA database '%3'"
+msgstr ""
+"La dernière liste de révocation générée par le CA '%1' expirera le %2.\n"
+"Elle est stockée dans la base de données XCA '%3'"
+
+#: ../lib/pki_crl.cpp:430
+#, qt-format
+msgctxt "pki_crl|"
+msgid "Renew CRL: %1"
+msgstr "Renouvellement de CRL: %1"
+
+#: ../lib/pki_crl.cpp:431
+#, qt-format
+msgctxt "pki_crl|"
+msgid ""
+"The XCA CRL '%1', issued on %3 will expire on %4.\n"
+"It is stored in the XCA database '%5'"
+msgstr ""
+"La liste de révocation XCA '%1', émise le %3 expirera le %4.\n"
+"Elle est stockée dans la base de données XCA '%5'"
+
+#: ../lib/pki_evp.cpp:240
+#, qt-format
+msgctxt "pki_evp|"
+msgid "Please enter the password to decrypt the private key %1."
+msgstr "SVP saisir le mot de passe pour déchiffrer la clé privée %1,"
+
+#: ../lib/pki_evp.cpp:308
+#, qt-format
+msgctxt "pki_evp|"
+msgid "The key from file '%1' is incomplete or inconsistent."
+msgstr "La clé dans le fichier '%1' est incomplète ou incorrecte."
+
+#: ../lib/pki_evp.cpp:397
+#, qt-format
+msgctxt "pki_evp|"
+msgid ""
+"Please enter the password to decrypt the private key from file:\n"
+"%1"
+msgstr ""
+"SVP saisir le mot de passe pour déchiffrer la clé privée du fichier:\n"
+"%1"
+
+#: ../lib/pki_evp.cpp:464
+#, qt-format
+msgctxt "pki_evp|"
+msgid ""
+"Unable to load the private key in file %1. Tried PEM and DER private, "
+"public, PKCS#8 key types and SSH2 format."
+msgstr ""
+"Impossible de charger la clé privée du fichier %1. Les formats PEM et DER "
+"ainsi que les types de clés privé, public, PKCS#8 et le format SSH2 ont été "
+"essayés."
+
+#: ../lib/pki_evp.cpp:487
+#, qt-format
+msgctxt "pki_evp|"
+msgid "Please enter the password to decrypt the private key: '%1'"
+msgstr "SVP saisir le mot de passe pour déchiffrer la clé privée: '%1'"
+
+#: ../lib/pki_evp.cpp:490 ../lib/pki_evp.cpp:501
+msgctxt "pki_evp|"
+msgid "Password input aborted"
+msgstr "Saisie du mot de passe abandonnée"
+
+#: ../lib/pki_evp.cpp:497
+#, qt-format
+msgctxt "pki_evp|"
+msgid "Please enter the database password for decrypting the key '%1'"
+msgstr ""
+"SVP saisir le mot de passe de la base de données pour déchiffrer la clé '%1'"
+
+#: ../lib/pki_evp.cpp:521
+#, qt-format
+msgctxt "pki_evp|"
+msgid "Decryption of private key '%1' failed"
+msgstr "Le déchiffrement de la clé privée '%1' a échoué"
+
+#: ../lib/pki_evp.cpp:649
+#, qt-format
+msgctxt "pki_evp|"
+msgid "Please enter the password to protect the private key: '%1'"
+msgstr "SVP saisir le mot de passe pour protéger la clé privée: '%1'"
+
+#: ../lib/pki_evp.cpp:667
+msgctxt "pki_evp|"
+msgid "Please enter the database password for encrypting the key"
+msgstr "SVP saisir le mot de passe de la base de données pour chiffrer la clé"
+
+#: ../lib/pki_evp.cpp:849
+#, qt-format
+msgctxt "pki_evp|"
+msgid ""
+"Please enter the password to protect the PKCS#8 key '%1' in file:\n"
+"%2"
+msgstr ""
+"SVP saisir le mot de passe protégeant la clé en PKCS#8 '%1' dans le fichier\n"
+"%2"
+
+#: ../lib/pki_evp.cpp:906
+#, qt-format
+msgctxt "pki_evp|"
+msgid ""
+"Please enter the password to protect the private key '%1' in file:\n"
+"%2"
+msgstr ""
+"SVP saisir le mot de passe pour protéger la clé privée '%1' dans le "
+"fichier:\n"
+"%2"
+
+#: ../lib/pki_export.cpp:64 ../lib/pki_export.cpp:99 ../lib/pki_export.cpp:103
+msgctxt "pki_export|"
+msgid "PEM Text format with headers"
+msgstr "Format textuel PEM avec des en-têtes"
+
+#: ../lib/pki_export.cpp:65
+msgctxt "pki_export|"
+msgid "PEM selected"
+msgstr "PEM sélectionné"
+
+#: ../lib/pki_export.cpp:65
+msgctxt "pki_export|"
+msgid "Concatenated list of all selected certificates in one PEM text file"
+msgstr ""
+"Concaténation de tous les certificats sélectionnés dans un seul fichier "
+"texte en format PEM"
+
+#: ../lib/pki_export.cpp:66
+msgctxt "pki_export|"
+msgid "PEM chain"
+msgstr "Chaîne en PEM"
+
+#: ../lib/pki_export.cpp:66
+msgctxt "pki_export|"
+msgid ""
+"Concatenated text format of the complete certificate chain in one PEM file"
+msgstr ""
+"Fichier PEM contenant la concaténation de tous les certificats de la chaîne"
+
+#: ../lib/pki_export.cpp:67
+msgctxt "pki_export|"
+msgid ""
+"The complete certificate chain and the private key of the selected "
+"certificate with tags usable in OpenVPN configuration files"
+msgstr ""
+"La chaîne complète des certificats et la clé privée du certificat "
+"sélectionné avec des balises utilisables dans les fichiers de configuration "
+"d'OpenVPN"
+
+#: ../lib/pki_export.cpp:68
+msgctxt "pki_export|"
+msgid "PEM + key"
+msgstr "PEM + clé"
+
+#: ../lib/pki_export.cpp:68
+msgctxt "pki_export|"
+msgid ""
+"Concatenation of the certificate and the unencrypted private key in one PEM "
+"file"
+msgstr ""
+"La concaténation du certificat et de sa clé privée non-chiffrée dans un seul "
+"fichier PEM"
+
+#: ../lib/pki_export.cpp:69
+msgctxt "pki_export|"
+msgid ""
+"Concatenation of the certificate and the encrypted private key in PKCS#8 "
+"format in one file"
+msgstr ""
+"La concaténation du certificat et de sa clé privée chiffrée en format PKCS#8 "
+"dans un seul fichier"
+
+#: ../lib/pki_export.cpp:70
+msgctxt "pki_export|"
+msgid "All unusable"
+msgstr "Tous les inutilisables"
+
+#: ../lib/pki_export.cpp:70
+msgctxt "pki_export|"
+msgid "Concatenation of all expired or revoked certificates in one PEM file"
+msgstr ""
+"Concaténation de tous les certificats expirés ou révoqués dans un seul "
+"fichier texte en format PEM"
+
+#: ../lib/pki_export.cpp:71
+msgctxt "pki_export|"
+msgid "PKCS#7 encoded single certificate"
+msgstr "Un seul certificat en format PKCS#7"
+
+#: ../lib/pki_export.cpp:72
+msgctxt "pki_export|"
+msgid "All selected certificates encoded in one PKCS#7 file"
+msgstr ""
+"Tous les certificats sélectionnés dans un seul fichier en format PKCS#7"
+
+#: ../lib/pki_export.cpp:73
+msgctxt "pki_export|"
+msgid "PKCS #7 chain"
+msgstr "Chaîne PKCS#7"
+
+#: ../lib/pki_export.cpp:73
+msgctxt "pki_export|"
+msgid "PKCS#7 encoded complete certificate chain"
+msgstr "La chaîne complète de certificats en format PKCS#7"
+
+#: ../lib/pki_export.cpp:74
+msgctxt "pki_export|"
+msgid "PKCS #7 unusable"
+msgstr "PKCS #7 inutilisable"
+
+#: ../lib/pki_export.cpp:74
+msgctxt "pki_export|"
+msgid "PKCS#7 encoded collection of all expired or revoked certificates"
+msgstr "Collection PKCS#7 chiffrée de tous les certificats expirés ou révoqués"
+
+#: ../lib/pki_export.cpp:75
+msgctxt "pki_export|"
+msgid "Binary DER encoded certificate"
+msgstr "Certificat codé en format binaire DER"
+
+#: ../lib/pki_export.cpp:76
+msgctxt "pki_export|"
+msgid "PKCS #12 chain"
+msgstr "Chaîne PKCS #12"
+
+#: ../lib/pki_export.cpp:76
+msgctxt "pki_export|"
+msgid ""
+"The complete certificate chain and the private key as encrypted PKCS#12 file"
+msgstr ""
+"La chaîne complète des certificats et la clé privée en un seul fichier "
+"chiffré en format PKCS#12"
+
+#: ../lib/pki_export.cpp:77
+msgctxt "pki_export|"
+msgid "PKCS #12"
+msgstr "PKCS #12"
+
+#: ../lib/pki_export.cpp:77
+msgctxt "pki_export|"
+msgid "The certificate and the private key as encrypted PKCS#12 file"
+msgstr "Le certificat et sa clé privée dans un fichier en format PKCS#12"
+
+#: ../lib/pki_export.cpp:78
+msgctxt "pki_export|"
+msgid "Certificate Index file"
+msgstr "Fichier d'index des certificats"
+
+#: ../lib/pki_export.cpp:78
+msgctxt "pki_export|"
+msgid ""
+"OpenSSL specific Certificate Index file as created by the 'ca' command and "
+"required by the OCSP tool"
+msgstr ""
+"Fichier d'index des certificats spécifique à OpenSSL, tel que créé par la "
+"commande 'ca' et nécessaire à l'outil OCSP"
+
+#: ../lib/pki_export.cpp:79 ../lib/pki_export.cpp:105
+msgctxt "pki_export|"
+msgid "vCalendar"
+msgstr "Message vCalendar"
+
+#: ../lib/pki_export.cpp:79
+msgctxt "pki_export|"
+msgid "vCalendar expiry reminder for the selected items"
+msgstr "message vCalendar de rappel d'expiration des éléments sélectionnés"
+
+#: ../lib/pki_export.cpp:80
+msgctxt "pki_export|"
+msgid "CA vCalendar"
+msgstr "message vCalendar pour le CA"
+
+#: ../lib/pki_export.cpp:80
+msgctxt "pki_export|"
+msgid ""
+"vCalendar expiry reminder containing all issued, valid certificates, the CA "
+"itself and the latest CRL"
+msgstr ""
+"message vCalendar de rappel d'expiration contenant tous les certificats "
+"valides émis, le CA lui-même et la liste de révocation la plus récente"
+
+#: ../lib/pki_export.cpp:81 ../lib/pki_export.cpp:101
+msgctxt "pki_export|"
+msgid "OpenSSL config"
+msgstr "Configuration OpenSSL"
+
+#: ../lib/pki_export.cpp:81 ../lib/pki_export.cpp:101
+msgctxt "pki_export|"
+msgid ""
+"OpenSSL configuration file to create a certificate or request with the "
+"openssl commandline tool"
+msgstr ""
+"Fichier de configuration OpenSSL pour créer un certificat ou une requête au "
+"moyen de l'outil openssl en ligne de commande"
+
+#: ../lib/pki_export.cpp:82
+msgctxt "pki_export|"
+msgid "OpenVPN tls-auth key"
+msgstr "clé tls-auth de OpenVPN"
+
+#: ../lib/pki_export.cpp:82
+msgctxt "pki_export|"
+msgid "The OpenVPN tls-auth key is a secret key shared between endpoints"
+msgstr ""
+"La clé tls-auth de OpenVPN est une clé secrète partagée entre les points "
+"d'accès"
+
+#: ../lib/pki_export.cpp:83
+msgctxt "pki_export|"
+msgid "JSON Web Kit"
+msgstr "JSON Web Kit"
+
+#: ../lib/pki_export.cpp:83
+msgctxt "pki_export|"
+msgid ""
+"The public key of the certificate in JSON Web Kit format with X.509 "
+"Certificate Thumbprint (x5t)"
+msgstr ""
+"La clé publique du certificat en format JSON Web Kit avec une empreinte "
+"lisible du certificat X.509 (x5t)"
+
+#: ../lib/pki_export.cpp:84
+msgctxt "pki_export|"
+msgid "JSON Web Kit chain"
+msgstr "Chaîne JSON Web Kit"
+
+#: ../lib/pki_export.cpp:84
+msgctxt "pki_export|"
+msgid ""
+"The public key of the certificate in JSON Web Kit format with X.509 "
+"Certificate Thumbprint (x5t) and certificate chain (x5c)"
+msgstr ""
+"La clé publique du certificat en format JSON Web Kit avec une empreinte du "
+"certificat X.509 et la chaîne des certificats signataires (x5c)"
+
+#: ../lib/pki_export.cpp:86
+msgctxt "pki_export|"
+msgid "PEM public"
+msgstr "clé publique PEM"
+
+#: ../lib/pki_export.cpp:86
+msgctxt "pki_export|"
+msgid "Text format of the public key in one PEM file"
+msgstr "Formattage textuel de la clé publique dans un fichier PEM"
+
+#: ../lib/pki_export.cpp:87
+msgctxt "pki_export|"
+msgid "PEM private"
+msgstr "Clé privée PEM"
+
+#: ../lib/pki_export.cpp:87 ../lib/pki_export.cpp:89
+msgctxt "pki_export|"
+msgid "Unencrypted private key in text format"
+msgstr "Clé privée non-chiffrée en format texte"
+
+#: ../lib/pki_export.cpp:88
+msgctxt "pki_export|"
+msgid "PEM encrypted"
+msgstr "Chiffrée en PEM"
+
+#: ../lib/pki_export.cpp:88
+msgctxt "pki_export|"
+msgid "OpenSSL specific encrypted private key in text format"
+msgstr "Clé privée chiffrée spécifiquement par OpenSSL en format texte"
+
+#: ../lib/pki_export.cpp:89
+msgctxt "pki_export|"
+msgid "SSH2 private"
+msgstr "Clé privée SSH2"
+
+#: ../lib/pki_export.cpp:90
+msgctxt "pki_export|"
+msgid "SSH2 public"
+msgstr "Clé publique SSH2"
+
+#: ../lib/pki_export.cpp:90
+msgctxt "pki_export|"
+msgid "The public key encoded in SSH2 format"
+msgstr "La clé publique codée en format SSH2"
+
+#: ../lib/pki_export.cpp:91
+msgctxt "pki_export|"
+msgid "DER public"
+msgstr "Clé publique DER"
+
+#: ../lib/pki_export.cpp:91
+msgctxt "pki_export|"
+msgid "Binary DER format of the public key"
+msgstr "Format binaire DER de la clé publique"
+
+#: ../lib/pki_export.cpp:92
+msgctxt "pki_export|"
+msgid "DER private"
+msgstr "Clé privée DER"
+
+#: ../lib/pki_export.cpp:92
+msgctxt "pki_export|"
+msgid "Unencrypted private key in binary DER format"
+msgstr "Clé privée non-chiffrée en format binaire DER"
+
+#: ../lib/pki_export.cpp:93
+msgctxt "pki_export|"
+msgid "PVK private"
+msgstr "Clé privée PVK"
+
+#: ../lib/pki_export.cpp:93
+msgctxt "pki_export|"
+msgid "Private key in Microsoft PVK format not encrypted"
+msgstr "La clé privée en format Microsoft PVK n'est pas chiffrée"
+
+#: ../lib/pki_export.cpp:94
+msgctxt "pki_export|"
+msgid "PKCS #8 encrypted"
+msgstr "Chiffrée en PKCS #8"
+
+#: ../lib/pki_export.cpp:94
+msgctxt "pki_export|"
+msgid "Encrypted private key in PKCS#8 text format"
+msgstr "Clé privée chiffrée en format texte PKCS#8"
+
+#: ../lib/pki_export.cpp:95
+msgctxt "pki_export|"
+msgid "PKCS #8"
+msgstr "PKCS #8"
+
+#: ../lib/pki_export.cpp:95
+msgctxt "pki_export|"
+msgid "Unencrypted private key in PKCS#8 text format"
+msgstr "Clé privée non-chiffrée en format texte PKCS#8"
+
+#: ../lib/pki_export.cpp:96
+msgctxt "pki_export|"
+msgid "JSON Web Key private"
+msgstr "Clé privée JSON Web Kit"
+
+#: ../lib/pki_export.cpp:96
+msgctxt "pki_export|"
+msgid "Unencrypted private key in JSON Web Key format"
+msgstr "Clé privée non-chiffrée en format JSON Web Kit"
+
+#: ../lib/pki_export.cpp:97
+msgctxt "pki_export|"
+msgid "JSON Web Key public"
+msgstr "Clé publique JSON Web Kit"
+
+#: ../lib/pki_export.cpp:97
+msgctxt "pki_export|"
+msgid "Public key in JSON Web Key format"
+msgstr "La clé publique codée en format JSON Web Kit"
+
+#: ../lib/pki_export.cpp:100
+msgctxt "pki_export|"
+msgid "Binary DER format of the certificate request"
+msgstr "Format binaire DER de la clé publique"
+
+#: ../lib/pki_export.cpp:104
+msgctxt "pki_export|"
+msgid "Binary DER format of the revocation list"
+msgstr "Format binaire DER de la liste de révocation"
+
+#: ../lib/pki_export.cpp:105
+msgctxt "pki_export|"
+msgid "vCalendar reminder for the CRL expiry date"
+msgstr "message vCalendar de rappel d'expiration de la liste de révocation"
+
+#: ../lib/pki_export.cpp:107
+msgctxt "pki_export|"
+msgid ""
+"XCA template in PEM-like format. Templates include the internal name and "
+"comment"
+msgstr ""
+"Modèle XCA en format similaire à PEM. Les modèles contiennent leurs nom "
+"interne et commentaire"
+
+#: ../lib/pki_export.cpp:108
+msgctxt "pki_export|"
+msgid ""
+"All selected XCA templates in PEM-like format. Templates include the "
+"internal name and comment"
+msgstr ""
+"Tous les modèles XCA sélectionnés en format similaire à PEM. Les modèles "
+"contiennent leurs nom interne et commentaire"
+
+#: ../lib/pki_key.cpp:59 ../lib/pki_key.cpp:236 ../lib/pki_key.cpp:856
+msgctxt "pki_key|"
+msgid "Public key"
+msgstr "Clé publique"
+
+#: ../lib/pki_key.cpp:212
+#, qt-format
+msgctxt ""
+"pki_key|%1 will be replaced by 'RSA', 'DSA', 'EC'. %2 is the internal name "
+"of the key"
+msgid "Successfully imported the %1 public key '%2'"
+msgstr "La clé %1 publique '%2' a été importée avec succès"
+
+#: ../lib/pki_key.cpp:214
+#, qt-format
+msgctxt ""
+"pki_key|%1 will be replaced by 'RSA', 'DSA', 'EC'. %2 is/are the internal "
+"name(s) of the key(s)"
+msgid "Delete the %n %1 public key(s) '%2'?"
+msgid_plural "Delete the %n %1 public key(s) '%2'?"
+msgstr[0] "Détruire les %n clé(s) %1 publique(s) '%2' ?"
+msgstr[1] "Détruire les %n clé(s) %1 publique(s) '%2' ?"
+
+#: ../lib/pki_key.cpp:220
+#, qt-format
+msgctxt ""
+"pki_key|%1 will be replaced by 'RSA', 'DSA', 'EC'. %2 is the internal name "
+"of the key"
+msgid "Successfully imported the %1 private key '%2'"
+msgstr "La clé %1 privée '%2' a été importée avec succès"
+
+#: ../lib/pki_key.cpp:222
+#, qt-format
+msgctxt ""
+"pki_key|%1 will be replaced by 'RSA', 'DSA', 'EC'. %2 is/are the internal "
+"name(s) of the key(s)"
+msgid "Delete the %n %1 private key(s) '%2'?"
+msgid_plural "Delete the %n %1 private key(s) '%2'?"
+msgstr[0] "Détruire les %n clé(s) %1 privée(s) '%2' ?"
+msgstr[1] "Détruire les %n clé(s) %1 privée(s) '%2' ?"
+
+#: ../lib/pki_key.cpp:224
+#, qt-format
+msgctxt ""
+"pki_key|%1 will be replaced by 'RSA', 'DSA', 'EC'. %2 is the internal name "
+"of the key"
+msgid "Successfully created the %1 private key '%2'"
+msgstr "La clé %1 privée '%2' a été créée avec succès"
+
+#: ../lib/pki_key.cpp:454
+msgctxt "pki_key|"
+msgid "Common"
+msgstr "Global"
+
+#: ../lib/pki_key.cpp:454
+msgctxt "pki_key|"
+msgid "Private"
+msgstr "Privé"
+
+#: ../lib/pki_key.cpp:454
+msgctxt "pki_key|"
+msgid "Bogus"
+msgstr "Erroné"
+
+#: ../lib/pki_key.cpp:454
+msgctxt "pki_key|"
+msgid "PIN"
+msgstr "NIP"
+
+#: ../lib/pki_key.cpp:464
+msgctxt "pki_key|"
+msgid "No password"
+msgstr "Pas de mot de passe"
+
+#: ../lib/pki_key.cpp:561 ../lib/pki_key.cpp:666
+#, qt-format
+msgctxt "pki_key|"
+msgid "Unexpected SSH2 content: '%1'"
+msgstr "Contenu SSH2 inattendu: '%1'"
+
+#: ../lib/pki_key.cpp:581 ../lib/pki_key.cpp:587
+msgctxt "pki_key|"
+msgid "Invalid SSH2 public key"
+msgstr "Clé publique SSH2 invalide"
+
+#: ../lib/pki_key.cpp:778
+#, qt-format
+msgctxt "pki_key|"
+msgid "Failed writing to %1"
+msgstr "Echec d'écriture sur %1"
+
+#: ../lib/pki_multi.cpp:138
+msgctxt "pki_multi|"
+msgid "No known PEM encoded items found"
+msgstr "Aucun objet PEM connu n'a été trouvé"
+
+#: ../lib/pki_pkcs12.cpp:37
+#, qt-format
+msgctxt "pki_pkcs12|"
+msgid ""
+"Please enter the password to decrypt the PKCS#12 file:\n"
+"%1"
+msgstr ""
+"SVP saisir le mot de passe pour déchiffrer le fichier en PKCS#12:\n"
+"%1"
+
+#: ../lib/pki_pkcs12.cpp:51
+#, qt-format
+msgctxt "pki_pkcs12|"
+msgid "Unable to load the PKCS#12 (pfx) file %1."
+msgstr "Impossible de charger le fichier en PKCS#12 (pfx) %1."
+
+#: ../lib/pki_pkcs12.cpp:83
+#, qt-format
+msgctxt "pki_pkcs12|"
+msgid "The supplied password was wrong (%1)"
+msgstr "Le mot de passe renseigné était faux (%1)"
+
+#: ../lib/pki_pkcs12.cpp:141
+#, qt-format
+msgctxt "pki_pkcs12|"
+msgid ""
+"Please enter the password to encrypt the key of certificate '%1' in the "
+"PKCS#12 file:\n"
+"%2"
+msgstr ""
+"SVP saisir le mot de passe pour chiffrer la clé du certificat '%1' dans le "
+"fichier en PKCS#12:\n"
+"%2"
+
+#: ../lib/pki_pkcs12.cpp:138
+msgctxt "pki_pkcs12|"
+msgid "No key or no Cert and no pkcs12"
+msgstr "Pas de clé ou pas de certificat et pas en PKCS#12"
+
+#: ../lib/pki_pkcs7.cpp:185
+#, qt-format
+msgctxt "pki_pkcs7|"
+msgid "Unable to load the PKCS#7 file %1. Tried PEM and DER format."
+msgstr ""
+"Impossible de charger le fichier en PKCS#7 %1. Les formats PEM et DER ont "
+"été essayés."
+
+#: ../lib/pki_scard.cpp:46
+#, qt-format
+msgctxt "pki_scard|"
+msgid "Successfully imported the token key '%1'"
+msgstr "La clé du jeton '%1' a été importée avec succès"
+
+#: ../lib/pki_scard.cpp:48
+#, qt-format
+msgctxt "pki_scard|"
+msgid "Successfully created the token key '%1'"
+msgstr "La clé du jeton '%1' a été créée avec succès"
+
+#: ../lib/pki_scard.cpp:47
+#, qt-format
+msgctxt "pki_scard|"
+msgid "Delete the %n token key(s): '%1'?"
+msgid_plural "Delete the %n token key(s): '%1'?"
+msgstr[0] "Détruire les %n clé(s) du jeton '%1' ?"
+msgstr[1] "Détruire les %n clé(s) du jeton '%1' ?"
+
+#: ../lib/pki_scard.cpp:375
+#, qt-format
+msgctxt "pki_scard|"
+msgid "Delete the private key '%1' from the token '%2 (#%3)' ?"
+msgstr "Détruire la clé privée '%1' sur le jeton '%2 (#%3)' ?"
+
+#: ../lib/pki_scard.cpp:448
+msgctxt "pki_scard|"
+msgid "This Key is already on the token"
+msgstr "Cette clé est déjà sur le jeton"
+
+#: ../lib/pki_scard.cpp:532
+msgctxt "pki_scard|"
+msgid "PIN input aborted"
+msgstr "Saisie du NIP abandonnée"
+
+#: ../lib/pki_scard.cpp:548
+msgctxt "pki_scard|"
+msgid "Unable to find copied key on the token"
+msgstr "Impossible de trouver la clé copiée sur le jeton"
+
+#: ../lib/pki_scard.cpp:636
+#, qt-format
+msgctxt "pki_scard|"
+msgid "Please insert card: %1 %2 [%3] with Serial: %4"
+msgstr "SVP insérer la carte %1 %2 [%3] avec le numéro de série: %4"
+
+#: ../lib/pki_scard.cpp:690
+#, qt-format
+msgctxt "pki_scard|"
+msgid "Select Slot of %1"
+msgstr "Sélectionner le créneau de %1"
+
+#: ../lib/pki_scard.cpp:728
+msgctxt "pki_scard|"
+msgid "Unable to find generated key on card"
+msgstr "Impossible de trouver la clé générée sur la carte"
+
+#: ../lib/pki_scard.cpp:739
+#, qt-format
+msgctxt "pki_scard|"
+msgid "Token %1"
+msgstr "Jeton %1"
+
+#: ../lib/pki_scard.cpp:748 ../lib/pki_scard.cpp:760
+msgctxt "pki_scard|"
+msgid "Failed to find the key on the token"
+msgstr "Impossible de trouver la clé sur le jeton"
+
+#: ../lib/pki_scard.cpp:754
+msgctxt "pki_scard|"
+msgid "Invalid Pin for the token"
+msgstr "NIP invalide pour le jeton"
+
+#: ../lib/pki_scard.cpp:766
+msgctxt "pki_scard|"
+msgid "Failed to initialize the key on the token"
+msgstr "Impossible d'initialiser la clé sur le jeton"
+
+#: ../lib/pki_temp.cpp:159
+#, qt-format
+msgctxt "pki_temp|"
+msgid "Successfully imported the XCA template '%1'"
+msgstr "Le modèle XCA '%1' a été importé avec succès"
+
+#: ../lib/pki_temp.cpp:161
+#, qt-format
+msgctxt "pki_temp|"
+msgid "Successfully created the XCA template '%1'"
+msgstr "Le modèle XCA '%1' a été créé avec succès"
+
+#: ../lib/pki_temp.cpp:160
+#, qt-format
+msgctxt "pki_temp|"
+msgid "Delete the %n XCA template(s): '%1'?"
+msgid_plural "Delete the %n XCA template(s): '%1'?"
+msgstr[0] "Détruire les %n modèle(s) XCA: '%1' ?"
+msgstr[1] "Détruire les %n modèle(s) XCA: '%1' ?"
+
+#: ../lib/pki_temp.cpp:373
+#, qt-format
+msgctxt "pki_temp|"
+msgid "Wrong Size %1"
+msgstr "Taille fausse %1"
+
+#: ../lib/pki_temp.cpp:471
+msgctxt "pki_temp|"
+msgid "Template file content error (too small)"
+msgstr "Erreur de contenu du fichier de modèle (trop petit)"
+
+#: ../lib/pki_temp.cpp:521
+msgctxt "pki_temp|"
+msgid "Not a PEM encoded XCA Template"
+msgstr "Ce n'est pas un modèle XCA en format PEM"
+
+#: ../lib/pki_temp.cpp:528
+#, qt-format
+msgctxt "pki_temp|"
+msgid "Not an XCA Template, but '%1'"
+msgstr "Ce n'est pas un modèle XCA, mais '%1'"
+
+#: ../lib/pki_x509.cpp:65
+#, qt-format
+msgctxt "pki_x509|"
+msgid "Successfully imported the certificate '%1'"
+msgstr "Le certificat '%1' a été importé avec succès"
+
+#: ../lib/pki_x509.cpp:67
+#, qt-format
+msgctxt "pki_x509|"
+msgid "Successfully created the certificate '%1'"
+msgstr "Le certificat '%1' a été créé avec succès"
+
+#: ../lib/pki_x509.cpp:66
+#, qt-format
+msgctxt "pki_x509|"
+msgid "Delete the %n certificate(s): '%1'?"
+msgid_plural "Delete the %n certificate(s): '%1'?"
+msgstr[0] "Détruire les %n certificat(s): '%1' ?"
+msgstr[1] "Détruire les %n certificat(s): '%1' ?"
+
+#: ../lib/pki_x509.cpp:237
+#, qt-format
+msgctxt "pki_x509|"
+msgid ""
+"Unable to load the certificate in file %1. Tried PEM and DER certificate."
+msgstr ""
+"Impossible de charger le certificat du fichier %1. Les formats PEM et DER "
+"ont été essayés."
+
+#: ../lib/pki_x509.cpp:332
+msgctxt "pki_x509|"
+msgid "Invalid OpenVPN tls-auth key"
+msgstr "Clé tls-auth de OpenVPN invalide"
+
+#: ../lib/pki_x509.cpp:362
+msgctxt "pki_x509|"
+msgid "Failed to import tls-auth key"
+msgstr "Impossible d'importer la clé tls-auth"
+
+#: ../lib/pki_x509.cpp:365
+msgctxt "pki_x509|"
+msgid "Same tls-auth key already stored for this CA"
+msgstr "La même clé tls-auth est déjà stockée pour ce CA"
+
+#: ../lib/pki_x509.cpp:367
+msgctxt "pki_x509|"
+msgid "New tls-auth key successfully imported"
+msgstr "La nouvelle clé tls-auth a été importée"
+
+#: ../lib/pki_x509.cpp:369
+msgctxt "pki_x509|"
+msgid "Existing tls-auth key successfully replaced"
+msgstr "La clé tls-auth existante a été remplacée"
+
+#: ../lib/pki_x509.cpp:473
+msgctxt "pki_x509|"
+msgid "This certificate is already on the security token"
+msgstr "Ce certificat est déjà dans le jeton de sécurité"
+
+#: ../lib/pki_x509.cpp:536
+#, qt-format
+msgctxt "pki_x509|"
+msgid "Delete the certificate '%1' from the token '%2 (#%3)'?"
+msgstr "Détruire le certificat '%1' sur le jeton '%2 (#%3)' ?"
+
+#: ../lib/pki_x509.cpp:660
+msgctxt "pki_x509|"
+msgid "There is no key for signing !"
+msgstr "Il n'y a pas de clé pour signer !"
+
+#: ../lib/pki_x509.cpp:972
+msgctxt "pki_x509|"
+msgid "No"
+msgstr "Non"
+
+#: ../lib/pki_x509.cpp:974
+msgctxt "pki_x509|"
+msgid "Yes"
+msgstr "Oui"
+
+#: ../lib/pki_x509.cpp:1004
+#, qt-format
+msgctxt "pki_x509|"
+msgid "Renew certificate: %1"
+msgstr "Renouvellement du certificat: %1"
+
+#: ../lib/pki_x509.cpp:1005
+#, qt-format
+msgctxt "pki_x509|"
+msgid ""
+"The XCA certificate '%1', issued on %2 will expire on %3.\n"
+"It is stored in the XCA database '%4'"
+msgstr ""
+"Le certificat XCA '%1' émis le %2 expirera le %3.\n"
+"Il est stocké dans la base de données XCA '%4'"
+
+#: ../lib/pki_x509req.cpp:108
+msgctxt "pki_x509req|"
+msgid "Signing key not valid (public key)"
+msgstr "La clé de signature n'est pas valide (c'est une clé publique)"
+
+#: ../lib/pki_x509req.cpp:147
+#, qt-format
+msgctxt "pki_x509req|"
+msgid "Successfully imported the PKCS#10 certificate request '%1'"
+msgstr "La requête PKCS#10 de signature '%1' a été importée avec succès"
+
+#: ../lib/pki_x509req.cpp:148
+#, qt-format
+msgctxt "pki_x509req|"
+msgid "Delete the %n PKCS#10 certificate request(s): '%1'?"
+msgid_plural "Delete the %n PKCS#10 certificate request(s): '%1'?"
+msgstr[0] "Détruire les requête(s) PKCS#10 de signature: '%1' ?"
+msgstr[1] "Détruire les requête(s) PKCS#10 de signature: '%1' ?"
+
+#: ../lib/pki_x509req.cpp:149
+#, qt-format
+msgctxt "pki_x509req|"
+msgid "Successfully created the PKCS#10 certificate request '%1'"
+msgstr "La requête PKCS#10 de signature '%1' a été créée avec succès"
+
+#: ../lib/pki_x509req.cpp:180
+#, qt-format
+msgctxt "pki_x509req|"
+msgid ""
+"Unable to load the certificate request in file %1. Tried PEM, DER and SPKAC "
+"format."
+msgstr ""
+"Impossible de charger la requête de signature du fichier %1. Les formats "
+"PEM, DER et SPKAC ont été essayés."
+
+#: ../lib/pki_x509req.cpp:366
+msgctxt "pki_x509req|"
+msgid "Signed"
+msgstr "Signée"
+
+#: ../lib/pki_x509req.cpp:366
+msgctxt "pki_x509req|"
+msgid "Unhandled"
+msgstr "Non-géré"
+
+#: ../ui/v3ext.ui:26
+msgctxt "v3ext|"
+msgid "Copy Common Name"
+msgstr "Copier le nom commun"
+
+#: ../ui/v3ext.ui:56
+msgctxt "v3ext|"
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../ui/v3ext.ui:63
+msgctxt "v3ext|"
+msgid "Delete"
+msgstr "Enlever"
+
+#: ../ui/v3ext.ui:89
+msgctxt "v3ext|"
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../ui/v3ext.ui:96
+msgctxt "v3ext|"
+msgid "Validate"
+msgstr "Valider"
+
+#: ../ui/v3ext.ui:125
+msgctxt "v3ext|"
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../widgets/v3ext.cpp:75
+msgctxt "v3ext|"
+msgid "An email address or 'copy'"
+msgstr "Une adresse de courriel ou 'copy'"
+
+#: ../widgets/v3ext.cpp:77
+msgctxt "v3ext|"
+msgid "An email address"
+msgstr "Une adresse de courriel"
+
+#: ../widgets/v3ext.cpp:79
+msgctxt "v3ext|"
+msgid "A registered ID: OBJECT IDENTIFIER"
+msgstr "un IDentifiant enregistré: IDENTIFICATEUR.OBJET"
+
+#: ../widgets/v3ext.cpp:83
+msgctxt "v3ext|"
+msgid "A uniform resource indicator"
+msgstr "un indicateur uniforme de ressource"
+
+#: ../widgets/v3ext.cpp:88
+msgctxt "v3ext|"
+msgid "A DNS domain name or 'copycn'"
+msgstr "un nom de domaine DNS ou 'copycn'"
+
+#: ../widgets/v3ext.cpp:90
+msgctxt "v3ext|"
+msgid "A DNS domain name"
+msgstr "un nom de domaine DNS"
+
+#: ../widgets/v3ext.cpp:92
+msgctxt "v3ext|"
+msgid "An IP address"
+msgstr "Une adresse IP"
+
+#: ../widgets/v3ext.cpp:95
+msgctxt "v3ext|"
+msgid "Syntax: <OID>;TYPE:text like '1.2.3.4:UTF8:name'"
+msgstr "Syntaxe: <OID>;TYPE:texte sous la forme '1.2.3.4:UTF8:nom'"
+
+#: ../widgets/v3ext.cpp:99
+msgctxt "v3ext|"
+msgid "No editing. Only 'copy' allowed here"
+msgstr "Pas de modification possible. Seul 'copy' est permis ici"
+
+#: ../widgets/v3ext.cpp:168
+#, qt-format
+msgctxt "v3ext|"
+msgid ""
+"Validation failed:\n"
+"'%1'\n"
+"%2"
+msgstr ""
+"La validation a échoué:\n"
+"'%1'\n"
+"%2"
+
+#: ../widgets/v3ext.cpp:173
+#, qt-format
+msgctxt "v3ext|"
+msgid ""
+"Validation successful:\n"
+"'%1'"
+msgstr ""
+"La validation a été effectuée avec succès:\n"
+"'%1'"
+
+#: ../widgets/XcaWarning.cpp:71
+msgctxt "xcaWarningGui|"
+msgid "Copy to Clipboard"
+msgstr "Copier dans le presse-papier"

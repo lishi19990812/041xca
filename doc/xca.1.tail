@@ -1,0 +1,51 @@
+.SH ENVIRONMENT VARIABLES
+Some more or less useful environment variables are evaluated by xca
+.TP
+.B XCA_NO_GUI=1
+Do not start the graphical user interface forcefully. Same as \fB--no-gui\fP
+argument. If both were not given, XCA tries to be smart and looks
+at the other arguments to judge whether to start the GUI or not.
+.TP
+.B XCA_DEBUG=<pattern>
+The environment variable
+.B XCA_DEBUG
+controls the dynamic debugging. The format is a comma separate list of pattern.
+Each pattern is: \fBall|[-]<function>|[-]<filename>:<firstline>[-<lastline>]\fP
+A leading dash skips the match. The \fIfirstline\fR and \fIlastline\fR may be
+empty and will be replaced by the first and last line of the file.
+If \fI-<lastline>\fR is omitted then only the exact line number of
+\fIlastline\fR is matched.
+.br
+Example: \fIXCA_DEBUG=all,-timerEvent\fR Log everything but skip the
+annoying timerEvent messages.
+.br
+Example: \fIXCA_DEBUG=pki_base.cpp:100-,-pki_base.cpp:340\fR Log pki_base
+Messages from line 100 up to the last line, except line 340.
+
+.TP
+.B XCA_ABORT_ON_WARNING=1
+Developer option to crash into debugger in case of
+a warning-level log message.
+Documented for completeness. Not useful for non-developers
+.TP
+.B XCA_PORTABLE=1
+Force the windows portable mode.
+Documented for completeness. Not useful for non-developers
+.TP
+.B XCA_ARGUMENTS=<man|rst|completion>
+Outputs the commandline arguments in man-page nroff, sphinx rst or as
+oneline list for command-completion to automatically update the documentation
+if new arguments are added.
+.TP
+.B XCA_QPSQL_OPTIONS XCA_QMYSQL_OPTIONS XCA_QODBC_OPTIONS
+Additional connection options for the SQL database drivers as described in
+https://doc.qt.io/qt-5/qsqldatabase.html#setConnectOptions like
+\fIQPSQL_OPTIONS=requiressl=1\fR
+
+.SH SEE ALSO
+A more detailed HTML documentation can be found in the doc directory,
+in the "Help" menu of the application or on
+https://hohnstaedt.de/documentation
+
+.SH AUTHOR
+This manual page was written by Christian Hohnstaedt <christian@hohnstaedt.de>

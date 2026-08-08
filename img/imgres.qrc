@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+  <qresource>
+    <file alias="appIco">xca-icons.iconset/icon_128x128.png</file>
+
+    <file alias="doneIco">done.png</file>
+    <file alias="warnIco">warn.png</file>
+
+    <file alias="certImg">bigcert.png</file>
+    <file alias="revImg">bigcrl.png</file>
+    <file alias="csrImg">bigcsr.png</file>
+    <file alias="keyImg">bigkey.png</file>
+    <file alias="tempImg">bigtemp.png</file>
+    <file alias="scardImg">bigscard.png</file>
+    <file alias="nsImg">netscape.png</file>
+
+    <file alias="crlIco">crl.png</file>
+    <file alias="pubkeyIco">halfkey.png</file>
+    <file alias="invalidcertkeyIco">invalidcertkey.png</file>
+    <file alias="invalidcertIco">invalidcert.png</file>
+    <file alias="keyIco">key.png</file>
+    <file alias="scardIco">scard.png</file>
+    <file alias="reqkeyIco">reqkey.png</file>
+    <file alias="reqIco">req.png</file>
+    <file alias="templateIco">template.png</file>
+    <file alias="validcertkeyIco">validcertkey.png</file>
+    <file alias="validcertIco">validcert.png</file>
+    <file alias="lsy041Img">lsy041.png</file>
+	<file alias="041Img">041.png</file>
+  </qresource>
+</RCC>

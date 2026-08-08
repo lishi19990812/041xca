@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?include "cpack_variables.wxi"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="$(var.CPACK_WIX_PRODUCT_GUID)"
+             Version="$(var.CPACK_PACKAGE_VERSION)"
+             UpgradeCode="$(var.CPACK_WIX_UPGRADE_GUID)"
+             Language="1033" Codepage="1252"
+             Name="XCA"
+             Manufacturer="$(var.CPACK_PACKAGE_VENDOR)" >
+        <Package InstallerVersion="300" Compressed="yes" Id="*" Platform="x64"
+                 Keywords="Installer" Description="XCA Installer"
+                 Languages="1033" SummaryCodepage="1252"
+                 Comments="X Certificate and key management"
+                 Manufacturer="Christian Hohnstädt" />
+
+	<MajorUpgrade Schedule="afterInstallInitialize"
+                      DowngradeErrorMessage="A later version of [ProductName] is already installed. Setup will now exit."/>
+
+        <Media Id="1" Cabinet="xca.cab" EmbedCab="yes" />
+        <!-- https://docs.microsoft.com/de-de/windows/win32/msi/icon-table?redirectedfrom=MSDN -->
+        <Icon Id="icon.exe" SourceFile="xca.exe"/>
+
+        <Property Id="ARPPRODUCTICON" Value="icon.exe"/>
+        <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />
+
+        <WixVariable Id="WixUILicenseRtf" Value="$(var.CPACK_WIX_LICENSE_RTF)" />
+        <WixVariable Id="WixUIBannerBmp" Value="$(var.CPACK_WIX_UI_BANNER)" />
+        <WixVariable Id="WixUIDialogBmp" Value="$(var.CPACK_WIX_UI_DIALOG)" />
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFiles64Folder">
+                <Directory Id="INSTALLDIR" Name="xca" >
+                    <Directory Id="platforms" Name="platforms"/>
+                    <Directory Id="sqldrivers" Name="sqldrivers"/>
+                    <Directory Id="styles" Name="styles"/>
+                    <Directory Id="html" Name="html"/>
+                    <Directory Id="i18n" Name="i18n"/>
+                </Directory>
+            </Directory>
+            <Directory Id="ProgramMenuFolder">
+                <Directory Id="ApplicationProgramsFolder" Name="xca"/>
+            </Directory>
+        </Directory>
+
+        <DirectoryRef Id="INSTALLDIR">
+            <Component Id="Cxca.exe" Guid="af105c5b-0333-4931-819d-ea109af1234b">
+                <File Id="xca.exe" Source="xca.exe" KeyPath="yes"/>
+                <ProgId Id="XCA.Database" Description="XCA Database" Icon="xca.exe">
+                    <Extension Id="xdb" ContentType="application/x-xca-database">
+                        <Verb Id="open" Command="Open" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                </ProgId>
+                <ProgId Id="XCA.Template" Description="XCA Template" Icon="xca.exe">
+                    <Extension Id="xca" ContentType="application/x-xca-template">
+                        <Verb Id="open" Command="Open" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                </ProgId>
+            </Component>
+            <Component Id="Cextensions" Guid="97df41c4-624f-488b-84b8-7f1cf4018da3" KeyPath="yes">
+                <ProgId Id="XCA.PEM" Description="Privacy Enhanced Mail" Icon="xca.exe" IconIndex="0">
+                    <Extension Id="pem" ContentType="application/x-pem-file">
+                        <Verb Id="openwithxca.pem" Command="Open with XCA" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                </ProgId>
+                <ProgId Id="XCA.cer" Description="X.509 Certificate" Icon="xca.exe" IconIndex="0">
+                    <Extension Id="cer" ContentType="application/pkix-cert">
+                        <Verb Id="openwithxca.cer" Command="Open with XCA" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                </ProgId>
+                <ProgId Id="XCA.crl" Description="X.509 Certificate Revocation List" Icon="xca.exe" IconIndex="0">
+                    <Extension Id="crl" ContentType="application/pkix-crl">
+                        <Verb Id="openwithxca.crl" Command="Open with XCA" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                </ProgId>
+                <ProgId Id="XCA.crt" Description="X.509 Certificate" Icon="xca.exe" IconIndex="0">
+                    <Extension Id="crt" ContentType="application/x-x509-ca-cert">
+                        <Verb Id="openwithxca.crt" Command="Open with XCA" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                </ProgId>
+                <ProgId Id="XCA.p12" Description="PKCS#12 Certificate and key" Icon="xca.exe" IconIndex="0">
+                    <Extension Id="p12" ContentType="application/x-pkcs12">
+                        <Verb Id="openwithxca.p12" Command="Open with XCA" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                    <Extension Id="pfx" ContentType="application/x-pkcs12">
+                        <Verb Id="openwithxca.pfx" Command="Open with XCA" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                </ProgId>
+                <ProgId Id="XCA.p7b" Description="X.509 Certificate" Icon="xca.exe" IconIndex="0">
+                    <Extension Id="p7b" ContentType="application/x-pkcs7-certificates">
+                        <Verb Id="openwithxca.p7b" Command="Open with XCA" TargetFile="xca.exe" Argument="&quot;%1&quot;" />
+                    </Extension>
+                </ProgId>
+            </Component>
+            <Component Id="Clibstdcpp6" Guid="0aae1734-4791-4ac1-818a-911dcdacc80f">
+                <File Id="libstdcpp6.dll" Source="libstdc++-6.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="Clibwinpthread1" Guid="37453629-c98f-41a9-b060-fe083a1ce903">
+                <File Id="libwinpthread1.dll" Source="libwinpthread-1.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="Clibgcc_s_seh1" Guid="f5c27ddf-a2e1-49e2-9f24-fbf97bc5cb70">
+                <File Id="libgcc_s_seh1.dll" Source="libgcc_s_seh-1.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="Ccopyright.rtf" Guid="83c15eef-0d1a-43a4-a0f7-1b90d0784712">
+                <File Id="copyright.rtf" Source="$(var.CPACK_WIX_LICENSE_RTF)" KeyPath="yes"/>
+            </Component>
+            <Component Id="RegistryEntries" Guid="61976812-eb40-4133-8ae0-7956e9e67719">
+                <RegistryValue Id="RegInstallDir" Root="HKLM" Key="Software\xca"
+                               Name="Install_Dir64" Type="string" Value="[INSTALLDIR]"
+                               KeyPath="yes"/>
+            </Component>
+
+        </DirectoryRef>
+
+        <DirectoryRef Id="platforms">
+            <Component Id="Cqwindows" Guid="7e67d308-14e7-43ad-bb3a-fa4dad3cc1f1">
+                <File Id="qwindows.dll" Source="platforms/qwindows.dll" KeyPath="yes"/>
+            </Component>
+        </DirectoryRef>
+
+        <DirectoryRef Id="sqldrivers">
+            <Component Id="Cqsqlite" Guid="6a039415-5278-424a-99b5-fc81b959a829">
+                <File Id="qsqlite.dll" Source="sqldrivers/qsqlite.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="Cqsqlodbc" Guid="c5dca3b3-d6f1-4012-8108-5c7516bd48a9">
+                <File Id="qsqlodbc.dll" Source="sqldrivers/qsqlodbc.dll"/>
+            </Component>
+            <Component Id="Cqsqlpsql" Guid="526161ae-1023-411e-b7a1-747c93923b31">
+                <File Id="qsqlpsql.dll" Source="sqldrivers/qsqlpsql.dll"/>
+            </Component>
+        </DirectoryRef>
+
+        <DirectoryRef Id="ApplicationProgramsFolder">
+            <Component Id="ApplicationShortcut" Guid="391c2a6f-bfe2-46e3-bcec-0e9413070696">
+                <Shortcut Id="ApplicationStartMenuShortcut"
+                          Name="XCA"
+                          Description="X Certificate and Key management"
+                          Target="[#xca.exe]"
+                          WorkingDirectory="INSTALLDIR"/>
+                <Shortcut Id="UninstallXCA"
+                          Name="Uninstall XCA"
+                          Description="Uninstalls XCA"
+                          Target="[System64Folder]msiexec.exe"
+                          Arguments=" /x [ProductCode]"/>
+                <RemoveFolder Id="CleanUpShortCut" Directory="ApplicationProgramsFolder" On="uninstall"/>
+                <RegistryValue Root="HKCU" Key="Software\xca" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+            </Component>
+        </DirectoryRef>
+        <UI>
+            <UIRef Id="WixUI_Mondo" />
+            <UIRef Id="WixUI_ErrorProgressText" />
+            <Publish Dialog="ExitDialog" Control="Finish" Event="DoAction"
+                     Value="LaunchApplication">WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 and NOT Installed</Publish>
+        </UI>
+        <Property Id="WIXUI_EXITDIALOGOPTIONALTEXT" Value="Enjoy XCA and free Software." />
+        <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOX" Value="1"/>
+        <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="Run XCA now" />
+        <CustomAction Id="LaunchApplication"
+                      ExeCommand="[INSTALLDIR]\xca.exe"
+                      Return="asyncNoWait"
+                      Directory="INSTALLDIR"
+                      Impersonate="yes" />
+
+        <ComponentGroup Id="GroupBasic">
+            <ComponentRef Id="Cxca.exe" />
+            <ComponentRef Id="Cqwindows" />
+            <ComponentRef Id="Cqsqlite" />
+            <ComponentRef Id="Cqwindowsstyle" />
+            <ComponentRef Id="Clibstdcpp6"/>
+            <ComponentRef Id="Clibwinpthread1"/>
+            <ComponentRef Id="Clibgcc_s_seh1"/>
+            <ComponentRef Id="Clibcrypto11x64"/>
+            <ComponentRef Id="Cvcruntime140"/>
+            <ComponentRef Id="CQtCore"/>
+            <ComponentRef Id="CQtGui"/>
+            <ComponentRef Id="CQtSql"/>
+            <ComponentRef Id="CQtWidgets"/>
+            <ComponentRef Id="CQtHelp"/>
+            <ComponentRef Id="Ccopyright.rtf"/>
+            <ComponentRef Id="ApplicationShortcut" />
+            <ComponentRef Id="RegistryEntries" />
+        </ComponentGroup>
+
+        <Feature Id='Complete' Title='XCA' Description="Complete Installation"
+                 Display='expand' Level='1' ConfigurableDirectory='INSTALLDIR'>
+            <Feature Id="XCA" Title="Main Application" Level="1" Absent="disallow"
+                     Description="Contains the main application, required Qt libraries and the SQLite driver.">
+                <ComponentGroupRef Id="GroupBasic" />
+                <ComponentGroupRef Id="GroupI18n" />
+                <ComponentGroupRef Id="GroupMisc" />
+            </Feature>
+            <Feature Id="FileAssociations" Title="File Associations" Level="1"
+                     Description="PKI file associations like .pem .pfx .crt .crl .p12">
+                <ComponentGroupRef Id="GroupBasic" />
+                <ComponentRef Id="Cextensions" />
+            </Feature>
+            <Feature Id="Documentation" Title="Documentation" Level="1"
+                     Description="The HTML documentation and changelog file.">
+                <ComponentGroupRef Id="GroupDocumentation" />
+            </Feature>
+            <FeatureGroupRef Id="DatabaseGroup" />
+        </Feature>
+        <?include "properties.wxi"?>
+
+    </Product>
+</Wix>

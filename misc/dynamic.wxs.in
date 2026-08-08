@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLDIR">
+            <Component Id="Clibcrypto11x64" Guid="44133d17-96b5-4aee-8a24-9c722482add5">
+                <File Id="libcrypto11x64.dll" Source="@OPENSSL_ROOT_DIR@/bin/libcrypto-@OPENSSL_LIBRARY_MAJOR@-x64.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="Cvcruntime140" Guid="f0b03b2a-14f7-4631-bfe3-d4c6c9b57e1d">
+                <File Id="vcruntime140.dll" Source="@SYSTEM32@/vcruntime140.dll" KeyPath="yes"/>
+            </Component>
+	    <!-- aqt install-tool windows desktop tools_vcredist qt.tools.vcredist_msvc2019_x64
+		Copy C:\Windows\System32\vcruntime140.dll C:\Windows\WOW64\
+		The WIX system uses that one and it crashes on the target.
+	    -->
+            <Component Id="CQtCore" Guid="561efd92-0fc8-4e2d-abe8-6ba16fc8bacd">
+                <File Id="QtCore.dll" Source="@QT@Core.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="CQtGui" Guid="2f680a70-2b2b-4b6e-9119-f53c8b5e1fe4">
+                <File Id="QtGui.dll" Source="@QT@Gui.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="CQtSql" Guid="df605486-2591-4232-8799-25ad2271e3d4">
+                <File Id="QtSql.dll" Source="@QT@Sql.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="CQtWidgets" Guid="eff9bc63-dc01-4f44-ab1f-8447a773817b">
+                <File Id="QtWidgets.dll" Source="@QT@Widgets.dll" KeyPath="yes"/>
+            </Component>
+            <Component Id="CQtHelp" Guid="83c15eef-0d1a-43a4-a0f7-1b90d0788705">
+                <File Id="QtHelp.dll" Source="@QT@Help.dll" KeyPath="yes"/>
+            </Component>
+        </DirectoryRef>
+        <DirectoryRef Id="styles">
+            <Component Id="Cqwindowsstyle" Guid="8e3dfb18-9a16-4b94-a5a5-90d9c4cc0038">
+                <File Id="q@WINDOWSSTYLE@.dll" Source="styles/q@WINDOWSSTYLE@.dll" KeyPath="yes"/>
+            </Component>
+        </DirectoryRef>
+
+        <FeatureGroup Id="DatabaseGroup">
+            <Feature Id="Databases" Title="Remote Database Drivers"
+                     Description="QT remote database drivers. Additional DLL from the manufacturer are required. See https://github.com/chris2511/xca" Level="1">
+                <Feature Id="SqlOdbc" Title="ODBC SQL Driver" Level="1"
+                         Description="Access to ODBC databases sources like Microsoft SQL Server. This driver requires no additional DLL from Microsoft.">
+                    <ComponentRef Id="Cqsqlodbc" />
+                </Feature>
+                <Feature Id="SqlPostgres" Title="PostgreSQL Driver" Level="1"
+                         Description="Additional PostgreSQL Commandline Tools required from: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads">
+                    <ComponentRef Id="Cqsqlpsql" />
+                </Feature>
+                <Feature Id="SqlMariaDB" Title="MariaDB / mySQL Driver" Level="1"
+                         Description="MariaDB support requires the MinGW variant of the https://github.com/thecodemonkey86/qt_mysql_driver ">
+                </Feature>
+            </Feature>
+        </FeatureGroup>
+    </Fragment>
+</Wix>

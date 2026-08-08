@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+	<mime-type type="application/x-xca-database">
+		<comment>XCA database</comment>
+		<glob pattern="*.xdb"/>
+		<icon name="x-xca-database"/>
+	</mime-type>
+	<mime-type type="application/x-xca-template">
+		<comment>XCA template</comment>
+		<glob pattern="*.xca"/>
+		<icon name="x-xca-template"/>
+	</mime-type>
+</mime-info>
